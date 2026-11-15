@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDG Quantum Combiner</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <a class="workspace-link" href="popup.html?wide=1" target="_blank" rel="noopener">Open wide view ↗</a>
+        <p class="eyebrow">Particle Data Group explorer</p>
+        <h1>Quantum Combiner</h1>
+        <p class="hero-copy">
+          Explore the PDG Particle Listings, including less-established states,
+          and search their combinations by quantum numbers and mass.
+        </p>
+        <p id="catalog-status" class="help-text"></p>
+        <div id="api-status" class="status-card loading">Checking PDG API...</div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Search</h2>
+          <button id="reset-btn" class="ghost-button" type="button">Reset</button>
+        </div>
+
+        <form id="search-form" class="search-grid">
+          <label>
+            Text filter
+            <input id="text-filter" type="text" placeholder="Name or PDG identifier" />
+          </label>
+
+          <label>
+            Family mix
+            <div class="family-filter-group" id="family-filter-group">
+              <label class="checkbox-option">
+                <input type="checkbox" name="family-filter" value="lepton" />
+                <span>Leptons</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="family-filter" value="meson" />
+                <span>Mesons</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="family-filter" value="baryon" />
+                <span>Baryons</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="family-filter" value="boson" />
+                <span>Bosons</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="family-filter" value="quark" />
+                <span>Quarks</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="family-filter" value="other" />
+                <span>Other</span>
+              </label>
+            </div>
+          </label>
+
+          <label>
+            Max particles
+            <select id="max-count">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+            </select>
+          </label>
+
+          <label>
+            Results per certainty category
+            <select id="result-limit">
+              <option value="10">10</option>
+              <option value="20" selected>20</option>
+              <option value="40">40</option>
+            </select>
+          </label>
+
+          <label>
+            Target mass (MeV)
+            <input id="target-mass" type="number" min="0" step="any" placeholder="1876.544" />
+          </label>
+
+          <label>
+            Tolerance (MeV)
+            <input id="mass-tolerance" type="number" min="0" step="any" value="5" />
+          </label>
+
+          <label>
+            Orbital angular momentum L
+            <input id="target-orbital-l" type="number" step="1" min="0" placeholder="Any" />
+          </label>
+
+          <label>
+            Total charge Q
+            <input id="target-charge" type="number" step="any" placeholder="0" />
+          </label>
+
+          <label>
+            Total baryon number B
+            <input id="target-baryon" type="number" step="any" placeholder="0" />
+          </label>
+
+          <label>
+            Total lepton number L
+            <input id="target-lepton" type="number" step="1" placeholder="0" />
+          </label>
+
+          <label>
+            Total strangeness S
+            <input id="target-strangeness" type="number" step="1" placeholder="0" />
+          </label>
+
+          <label>
+            Total charm C
+            <input id="target-charm" type="number" step="1" placeholder="0" />
+          </label>
+
+          <label>
+            Total bottomness B'
+            <input id="target-bottom" type="number" step="1" placeholder="0" />
+          </label>
+
+          <label>
+            Total topness T
+            <input id="target-top" type="number" step="1" placeholder="0" />
+          </label>
+
+          <label>
+            Total isospin 2I
+            <input id="target-isospin2" type="number" step="1" min="0" placeholder="0" />
+          </label>
+
+          <label>
+            Total spin 2J
+            <input id="target-spin2" type="number" step="1" min="0" placeholder="0" />
+          </label>
+
+          <label>
+            C-parity
+            <select id="target-c-parity">
+              <option value="">Any or undefined</option>
+              <option value="1">+</option>
+              <option value="-1">-</option>
+            </select>
+          </label>
+
+          <label>
+            Net parity
+            <select id="target-parity">
+              <option value="">Any</option>
+              <option value="1">+</option>
+              <option value="-1">-</option>
+            </select>
+          </label>
+
+          <p class="help-text full-row">
+            Energy window = target mass ± tolerance. Combinations use the sum of
+            constituent masses. Pink results have undetermined quantum numbers;
+            known conflicting quantum numbers still exclude a candidate.
+            Blank L scans 0–3 for combinations.
+          </p>
+          <div class="actions">
+            <button id="cancel-btn" class="ghost-button" type="button" hidden>Cancel</button>
+            <button class="primary-button" type="submit">Find combinations</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Direct PDG lookup</h2>
+        </div>
+        <form id="pdg-form" class="lookup-row">
+          <input
+            id="pdg-id-input"
+            type="text"
+            aria-label="PDG identifier"
+            placeholder="S016 (proton) or a mass-property ID"
+          />
+          <select id="pdg-endpoint" aria-label="PDG data type">
+            <option value="summaries">Summary</option>
+            <option value="listings">Measurements</option>
+          </select>
+          <button class="secondary-button" type="submit">Fetch</button>
+        </form>
+        <p class="help-text">Measurements use a property identifier from the catalog, such as S016M. A missing summary does not mean the state is absent from the Particle Listings.</p>
+        <div id="pdg-lookup-result" class="lookup-result subtle-card"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Results</h2>
+          <span id="result-count" class="muted-text">No search yet.</span>
+        </div>
+        <div id="results" class="results" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+  </html>
