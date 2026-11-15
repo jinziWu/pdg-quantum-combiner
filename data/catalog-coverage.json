@@ -1,0 +1,4906 @@
+{
+  "edition": "2026",
+  "release": "2026.0",
+  "dataReleaseTimestamp": "2026-05-30 13:41:24 PDT",
+  "source": "https://pdg.lbl.gov/2026/api/pdg-2026.0.sqlite",
+  "listingsSource": "https://pdg.lbl.gov/2026/listings/contents_listings.html",
+  "mcNumberingSource": "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-monte-carlo-numbering.pdf",
+  "citation": "F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceSha256": "40dc2587d9ae912d26fafb6b41f300f341d2a1f4bd620ff5b5f03827c39453fe",
+  "listingsSha256": "b33a5b9892060fb1b69ec00f13856c87f062825f1ee9caf15ef002828543b294",
+  "sourceParticleRows": 1170,
+  "sourceParticleIdentifiers": 438,
+  "sourcePartIdentifiers": 439,
+  "listingIdentifiers": 458,
+  "listingIdentifiersCovered": 458,
+  "missingListingIdentifiers": [],
+  "addedUnmappedIdentifiers": [
+    "S055",
+    "S064",
+    "S056",
+    "S025",
+    "S066",
+    "S007",
+    "S076",
+    "S067",
+    "S077",
+    "Q123",
+    "Q008",
+    "Q009",
+    "S027",
+    "M169",
+    "S049",
+    "S051",
+    "S052",
+    "M300",
+    "S061",
+    "S028",
+    "S046",
+    "S057",
+    "S054",
+    "S071",
+    "S030",
+    "S015"
+  ],
+  "stateCount": 1171,
+  "topicCount": 25,
+  "catalogEntryCount": 1196,
+  "massKnownCount": 1140,
+  "massUnknownCount": 56,
+  "listingMeasurementMassCount": 133,
+  "rangeMassCount": 305,
+  "quantumUndeterminedCount": 276,
+  "starsNote": "Star ratings are not a structured field in this bulk database. No star/rating filter is applied.",
+  "listings": [
+    {
+      "pdgId": "S000",
+      "title": "gamma",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "S000:1"
+      ]
+    },
+    {
+      "pdgId": "G021",
+      "title": "g (gluon)",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-gluon.pdf",
+      "catalogEntryIds": [
+        "G021:2"
+      ]
+    },
+    {
+      "pdgId": "G033",
+      "title": "graviton",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-graviton.pdf",
+      "catalogEntryIds": [
+        "G033:3"
+      ]
+    },
+    {
+      "pdgId": "S043",
+      "title": "W boson",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-w-boson.pdf",
+      "catalogEntryIds": [
+        "S043:4",
+        "S043:5"
+      ]
+    },
+    {
+      "pdgId": "S044",
+      "title": "Z boson",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-z-boson.pdf",
+      "catalogEntryIds": [
+        "S044:6"
+      ]
+    },
+    {
+      "pdgId": "S126",
+      "title": "H",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-higgs-boson.pdf",
+      "catalogEntryIds": [
+        "S126:7"
+      ]
+    },
+    {
+      "pdgId": "S055",
+      "title": "Neutral Higgs Bosons, Searches for",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/listings/rpp2026-list-neutral-higgs-boson-search.pdf",
+      "catalogEntryIds": [
+        "S055:listing"
+      ]
+    },
+    {
+      "pdgId": "S064",
+      "title": "Charged Higgs Bosons (H±and H±±), Searches for",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-charged-higgs-boson-search.pdf",
+      "catalogEntryIds": [
+        "S064:listing"
+      ]
+    },
+    {
+      "pdgId": "S056",
+      "title": "Heavy Bosons, Other Than Higgs Bosons, Searches for",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-heavy-bosons.pdf",
+      "catalogEntryIds": [
+        "S056:listing"
+      ]
+    },
+    {
+      "pdgId": "S029",
+      "title": "Axions (A0) and Other Very Light Bosons, Searches for",
+      "section": "Gauge & Higgs Bosons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-axions.pdf",
+      "catalogEntryIds": [
+        "S029:8"
+      ]
+    },
+    {
+      "pdgId": "S003",
+      "title": "electron",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-electron.pdf",
+      "catalogEntryIds": [
+        "S003:9",
+        "S003:10"
+      ]
+    },
+    {
+      "pdgId": "S004",
+      "title": "muon",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-muon.pdf",
+      "catalogEntryIds": [
+        "S004:11",
+        "S004:12"
+      ]
+    },
+    {
+      "pdgId": "S035",
+      "title": "tau",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-tau.pdf",
+      "catalogEntryIds": [
+        "S035:13",
+        "S035:14"
+      ]
+    },
+    {
+      "pdgId": "S025",
+      "title": "Heavy Charged Lepton Searches",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-charged-lepton.pdf",
+      "catalogEntryIds": [
+        "S025:listing"
+      ]
+    },
+    {
+      "pdgId": "S066",
+      "title": "Neutrino Properties",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-neutrino-prop.pdf",
+      "catalogEntryIds": [
+        "S066:listing"
+      ]
+    },
+    {
+      "pdgId": "S007",
+      "title": "Number of Neutrino Types",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-number-neutrino-types.pdf",
+      "catalogEntryIds": [
+        "S007:listing"
+      ]
+    },
+    {
+      "pdgId": "S076",
+      "title": "Double-beta Decay",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/listings/rpp2026-list-double-beta-decay.pdf",
+      "catalogEntryIds": [
+        "S076:listing"
+      ]
+    },
+    {
+      "pdgId": "S067",
+      "title": "Neutrino Mixing",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-neutrino-mixing.pdf",
+      "catalogEntryIds": [
+        "S067:listing"
+      ]
+    },
+    {
+      "pdgId": "S077",
+      "title": "Heavy Neutral Leptons, Searches for",
+      "section": "Leptons (e, mu, tau, neutrinos, heavy leptons ...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/listings/rpp2026-list-heavy-neutral-leptons.pdf",
+      "catalogEntryIds": [
+        "S077:listing"
+      ]
+    },
+    {
+      "pdgId": "Q123",
+      "title": "LIGHT QUARKS --- u, d, s",
+      "section": "Quarks (u,d,s,c,b,t...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-light-quarks.pdf",
+      "catalogEntryIds": [
+        "Q123:listing"
+      ]
+    },
+    {
+      "pdgId": "Q004",
+      "title": "c quark",
+      "section": "Quarks (u,d,s,c,b,t...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-c-quark.pdf",
+      "catalogEntryIds": [
+        "Q004:24",
+        "Q004:25"
+      ]
+    },
+    {
+      "pdgId": "Q005",
+      "title": "b quark",
+      "section": "Quarks (u,d,s,c,b,t...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-b-quark.pdf",
+      "catalogEntryIds": [
+        "Q005:26",
+        "Q005:27"
+      ]
+    },
+    {
+      "pdgId": "Q007",
+      "title": "t quark",
+      "section": "Quarks (u,d,s,c,b,t...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-t-quark.pdf",
+      "catalogEntryIds": [
+        "Q007:28",
+        "Q007:29"
+      ]
+    },
+    {
+      "pdgId": "Q008",
+      "title": "b' quark (4**th Generation)",
+      "section": "Quarks (u,d,s,c,b,t...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-b-prime-quark.pdf",
+      "catalogEntryIds": [
+        "Q008:listing"
+      ]
+    },
+    {
+      "pdgId": "Q009",
+      "title": "t' quark (4**th Generation)",
+      "section": "Quarks (u,d,s,c,b,t...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-t-prime-quark.pdf",
+      "catalogEntryIds": [
+        "Q009:listing"
+      ]
+    },
+    {
+      "pdgId": "S027",
+      "title": "Free Quark Searches",
+      "section": "Quarks (u,d,s,c,b,t...)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-free-quark-searches.pdf",
+      "catalogEntryIds": [
+        "S027:listing"
+      ]
+    },
+    {
+      "pdgId": "S008",
+      "title": "pi+−",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-pi-plus-minus.pdf",
+      "catalogEntryIds": [
+        "S008:30",
+        "S008:31"
+      ]
+    },
+    {
+      "pdgId": "S009",
+      "title": "pi0",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-pi-zero.pdf",
+      "catalogEntryIds": [
+        "S009:32"
+      ]
+    },
+    {
+      "pdgId": "S014",
+      "title": "eta",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta.pdf",
+      "catalogEntryIds": [
+        "S014:33"
+      ]
+    },
+    {
+      "pdgId": "M014",
+      "title": "f(0)(500)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f0-500.pdf",
+      "catalogEntryIds": [
+        "M014:34"
+      ]
+    },
+    {
+      "pdgId": "M009",
+      "title": "rho(770)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-rho-770.pdf",
+      "catalogEntryIds": [
+        "M009:35",
+        "M009:36",
+        "M009:37"
+      ]
+    },
+    {
+      "pdgId": "M001",
+      "title": "omega(782)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-782.pdf",
+      "catalogEntryIds": [
+        "M001:38"
+      ]
+    },
+    {
+      "pdgId": "M002",
+      "title": "eta'(958)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-prime-958.pdf",
+      "catalogEntryIds": [
+        "M002:39"
+      ]
+    },
+    {
+      "pdgId": "M003",
+      "title": "f(0)(980)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f0-980.pdf",
+      "catalogEntryIds": [
+        "M003:40"
+      ]
+    },
+    {
+      "pdgId": "M036",
+      "title": "a(0)(980)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-a0-980.pdf",
+      "catalogEntryIds": [
+        "M036:41",
+        "M036:42",
+        "M036:43"
+      ]
+    },
+    {
+      "pdgId": "M004",
+      "title": "phi(1020)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-phi-1020.pdf",
+      "catalogEntryIds": [
+        "M004:44"
+      ]
+    },
+    {
+      "pdgId": "M030",
+      "title": "h(1)(1170)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-h1-1170.pdf",
+      "catalogEntryIds": [
+        "M030:45"
+      ]
+    },
+    {
+      "pdgId": "M011",
+      "title": "b(1)(1235)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-b1-1235.pdf",
+      "catalogEntryIds": [
+        "M011:46",
+        "M011:47",
+        "M011:48"
+      ]
+    },
+    {
+      "pdgId": "M010",
+      "title": "a(1)(1260)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-a1-1260.pdf",
+      "catalogEntryIds": [
+        "M010:49",
+        "M010:50",
+        "M010:51"
+      ]
+    },
+    {
+      "pdgId": "M005",
+      "title": "f(2)(1270)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f2-1270.pdf",
+      "catalogEntryIds": [
+        "M005:52"
+      ]
+    },
+    {
+      "pdgId": "M008",
+      "title": "f(1)(1285)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f1-1285.pdf",
+      "catalogEntryIds": [
+        "M008:53"
+      ]
+    },
+    {
+      "pdgId": "M037",
+      "title": "eta(1295)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-1295.pdf",
+      "catalogEntryIds": [
+        "M037:54"
+      ]
+    },
+    {
+      "pdgId": "M058",
+      "title": "pi(1300)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-pi-1300.pdf",
+      "catalogEntryIds": [
+        "M058:55",
+        "M058:56",
+        "M058:57"
+      ]
+    },
+    {
+      "pdgId": "M012",
+      "title": "a(2)(1320)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-a2-1320.pdf",
+      "catalogEntryIds": [
+        "M012:58",
+        "M012:59",
+        "M012:60"
+      ]
+    },
+    {
+      "pdgId": "M147",
+      "title": "f(0)(1370)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f0-1370.pdf",
+      "catalogEntryIds": [
+        "M147:61"
+      ]
+    },
+    {
+      "pdgId": "M109",
+      "title": "h(1)(1415)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-h1-1415.pdf",
+      "catalogEntryIds": [
+        "M109:66"
+      ]
+    },
+    {
+      "pdgId": "M111",
+      "title": "pi(1)(1400)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-pi1-1400.pdf",
+      "catalogEntryIds": [
+        "M111:62",
+        "M111:63",
+        "M111:64"
+      ]
+    },
+    {
+      "pdgId": "M027",
+      "title": "eta(1405)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-1405.pdf",
+      "catalogEntryIds": [
+        "M027:65"
+      ]
+    },
+    {
+      "pdgId": "M006",
+      "title": "f(1)(1420)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f1-1420.pdf",
+      "catalogEntryIds": [
+        "M006:67"
+      ]
+    },
+    {
+      "pdgId": "M125",
+      "title": "omega(1420)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-1420.pdf",
+      "catalogEntryIds": [
+        "M125:68"
+      ]
+    },
+    {
+      "pdgId": "M066",
+      "title": "f(2)(1430)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f2-1430.pdf",
+      "catalogEntryIds": [
+        "M066:69"
+      ]
+    },
+    {
+      "pdgId": "M149",
+      "title": "a(0)(1450)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-a0-1450.pdf",
+      "catalogEntryIds": [
+        "M149:70",
+        "M149:71",
+        "M149:72"
+      ]
+    },
+    {
+      "pdgId": "M105",
+      "title": "rho(1450)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-rho-1450.pdf",
+      "catalogEntryIds": [
+        "M105:73",
+        "M105:74",
+        "M105:75"
+      ]
+    },
+    {
+      "pdgId": "M175",
+      "title": "eta(1475)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-1475.pdf",
+      "catalogEntryIds": [
+        "M175:76"
+      ]
+    },
+    {
+      "pdgId": "M152",
+      "title": "f(0)(1500)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f0-1500.pdf",
+      "catalogEntryIds": [
+        "M152:77"
+      ]
+    },
+    {
+      "pdgId": "M084",
+      "title": "f(1)(1510)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f1-1510.pdf",
+      "catalogEntryIds": [
+        "M084:78"
+      ]
+    },
+    {
+      "pdgId": "M013",
+      "title": "f(2)'(1525)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f2-prime-1525.pdf",
+      "catalogEntryIds": [
+        "M013:79"
+      ]
+    },
+    {
+      "pdgId": "M123",
+      "title": "f(2)(1565)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f2-1565.pdf",
+      "catalogEntryIds": [
+        "M123:80"
+      ]
+    },
+    {
+      "pdgId": "M188",
+      "title": "rho(1570)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-rho-1570.pdf",
+      "catalogEntryIds": [
+        "M188:81"
+      ]
+    },
+    {
+      "pdgId": "M166",
+      "title": "h(1)(1595)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-h1-1595.pdf",
+      "catalogEntryIds": [
+        "M166:82"
+      ]
+    },
+    {
+      "pdgId": "M164",
+      "title": "pi(1)(1600)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-pi1-1600.pdf",
+      "catalogEntryIds": [
+        "M164:83",
+        "M164:84",
+        "M164:85"
+      ]
+    },
+    {
+      "pdgId": "M161",
+      "title": "a(1)(1640)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-a1-1640.pdf",
+      "catalogEntryIds": [
+        "M161:86",
+        "M161:87",
+        "M161:88"
+      ]
+    },
+    {
+      "pdgId": "M117",
+      "title": "f(2)(1640)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-f2-1640.pdf",
+      "catalogEntryIds": [
+        "M117:89"
+      ]
+    },
+    {
+      "pdgId": "M154",
+      "title": "eta(2)(1645)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta2-1645.pdf",
+      "catalogEntryIds": [
+        "M154:90"
+      ]
+    },
+    {
+      "pdgId": "M126",
+      "title": "omega(1650)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-1650.pdf",
+      "catalogEntryIds": [
+        "M126:91"
+      ]
+    },
+    {
+      "pdgId": "M045",
+      "title": "omega(3)(1670)",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega3-1670.pdf",
+      "catalogEntryIds": [
+        "M045:92"
+      ]
+    },
+    {
+      "pdgId": "M034",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M034:93",
+        "M034:94",
+        "M034:95"
+      ]
+    },
+    {
+      "pdgId": "M067",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M067:96"
+      ]
+    },
+    {
+      "pdgId": "M015",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M015:97",
+        "M015:98",
+        "M015:99"
+      ]
+    },
+    {
+      "pdgId": "M065",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M065:100",
+        "M065:101",
+        "M065:102"
+      ]
+    },
+    {
+      "pdgId": "M162",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M162:103",
+        "M162:104",
+        "M162:105"
+      ]
+    },
+    {
+      "pdgId": "M263",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M263:106"
+      ]
+    },
+    {
+      "pdgId": "M068",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M068:107"
+      ]
+    },
+    {
+      "pdgId": "M255",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M255:108"
+      ]
+    },
+    {
+      "pdgId": "M114",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M114:109"
+      ]
+    },
+    {
+      "pdgId": "M075",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M075:110",
+        "M075:111",
+        "M075:112"
+      ]
+    },
+    {
+      "pdgId": "M264",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M264:113"
+      ]
+    },
+    {
+      "pdgId": "M038",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M038:114"
+      ]
+    },
+    {
+      "pdgId": "M085",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M085:115"
+      ]
+    },
+    {
+      "pdgId": "M054",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M054:116"
+      ]
+    },
+    {
+      "pdgId": "M267",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M267:117"
+      ]
+    },
+    {
+      "pdgId": "M101",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M101:118"
+      ]
+    },
+    {
+      "pdgId": "M185",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M185:119"
+      ]
+    },
+    {
+      "pdgId": "M170",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M170:120",
+        "M170:121",
+        "M170:122"
+      ]
+    },
+    {
+      "pdgId": "M142",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M142:123"
+      ]
+    },
+    {
+      "pdgId": "M227",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M227:124"
+      ]
+    },
+    {
+      "pdgId": "M135",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M135:125"
+      ]
+    },
+    {
+      "pdgId": "M017",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M017:126",
+        "M017:127",
+        "M017:128"
+      ]
+    },
+    {
+      "pdgId": "M167",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M167:129",
+        "M167:130",
+        "M167:131"
+      ]
+    },
+    {
+      "pdgId": "M239",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M239:132"
+      ]
+    },
+    {
+      "pdgId": "M106",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M106:133"
+      ]
+    },
+    {
+      "pdgId": "M156",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M156:134"
+      ]
+    },
+    {
+      "pdgId": "M016",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M016:135"
+      ]
+    },
+    {
+      "pdgId": "M020",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M020:136",
+        "M020:137",
+        "M020:138"
+      ]
+    },
+    {
+      "pdgId": "M168",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M168:139"
+      ]
+    },
+    {
+      "pdgId": "M042",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M042:140"
+      ]
+    },
+    {
+      "pdgId": "M032",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M032:141",
+        "M032:142",
+        "M032:143"
+      ]
+    },
+    {
+      "pdgId": "M103",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M103:144",
+        "M103:145",
+        "M103:146"
+      ]
+    },
+    {
+      "pdgId": "M112",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M112:147"
+      ]
+    },
+    {
+      "pdgId": "M082",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M082:148"
+      ]
+    },
+    {
+      "pdgId": "M270",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M270:149"
+      ]
+    },
+    {
+      "pdgId": "M115",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M115:150"
+      ]
+    },
+    {
+      "pdgId": "M044",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M044:151",
+        "M044:152",
+        "M044:153"
+      ]
+    },
+    {
+      "pdgId": "M107",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M107:154"
+      ]
+    },
+    {
+      "pdgId": "M041",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M041:155"
+      ]
+    },
+    {
+      "pdgId": "M169",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M169:listing"
+      ]
+    },
+    {
+      "pdgId": "M108",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M108:156"
+      ]
+    },
+    {
+      "pdgId": "M033",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M033:157",
+        "M033:158",
+        "M033:159"
+      ]
+    },
+    {
+      "pdgId": "M247",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M247:160"
+      ]
+    },
+    {
+      "pdgId": "M266",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M266:161"
+      ]
+    },
+    {
+      "pdgId": "M089",
+      "title": "click here",
+      "section": "Light Unflavored Mesons (S = C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "M089:162"
+      ]
+    },
+    {
+      "pdgId": "S010",
+      "title": "K+−",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-plus-minus.pdf",
+      "catalogEntryIds": [
+        "S010:163",
+        "S010:164"
+      ]
+    },
+    {
+      "pdgId": "S011",
+      "title": "K0",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-zero.pdf",
+      "catalogEntryIds": [
+        "S011:165",
+        "S011:166"
+      ]
+    },
+    {
+      "pdgId": "S012",
+      "title": "K(S)0",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-zero-S.pdf",
+      "catalogEntryIds": [
+        "S012:167"
+      ]
+    },
+    {
+      "pdgId": "S013",
+      "title": "K(L)0",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-zero-L.pdf",
+      "catalogEntryIds": [
+        "S013:168"
+      ]
+    },
+    {
+      "pdgId": "M174",
+      "title": "K*(0)(700)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-star-zero-700.pdf",
+      "catalogEntryIds": [
+        "M174:169",
+        "M174:170",
+        "M174:171",
+        "M174:172"
+      ]
+    },
+    {
+      "pdgId": "M018",
+      "title": "K*(892)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-star-892.pdf",
+      "catalogEntryIds": [
+        "M018:173",
+        "M018:174",
+        "M018:175",
+        "M018:176"
+      ]
+    },
+    {
+      "pdgId": "M028",
+      "title": "K(1)(1270)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K1-1270.pdf",
+      "catalogEntryIds": [
+        "M028:177",
+        "M028:178",
+        "M028:179",
+        "M028:180"
+      ]
+    },
+    {
+      "pdgId": "M064",
+      "title": "K(1)(1400)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K1-1400.pdf",
+      "catalogEntryIds": [
+        "M064:181",
+        "M064:182",
+        "M064:183",
+        "M064:184"
+      ]
+    },
+    {
+      "pdgId": "M094",
+      "title": "K*(1410)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-star-1410.pdf",
+      "catalogEntryIds": [
+        "M094:185",
+        "M094:186",
+        "M094:187",
+        "M094:188"
+      ]
+    },
+    {
+      "pdgId": "M019",
+      "title": "K*(0)(1430)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-zero-star-1430.pdf",
+      "catalogEntryIds": [
+        "M019:189",
+        "M019:190",
+        "M019:191",
+        "M019:192"
+      ]
+    },
+    {
+      "pdgId": "M022",
+      "title": "K*(2)(1430)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K2-star-1430.pdf",
+      "catalogEntryIds": [
+        "M022:193",
+        "M022:194",
+        "M022:195",
+        "M022:196"
+      ]
+    },
+    {
+      "pdgId": "M021",
+      "title": "K(1460)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-1460.pdf",
+      "catalogEntryIds": [
+        "M021:197",
+        "M021:198",
+        "M021:199",
+        "M021:200"
+      ]
+    },
+    {
+      "pdgId": "M039",
+      "title": "K(2)(1580)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K2-1580.pdf",
+      "catalogEntryIds": [
+        "M039:201",
+        "M039:202",
+        "M039:203",
+        "M039:204"
+      ]
+    },
+    {
+      "pdgId": "M160",
+      "title": "K(1630)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-1630.pdf",
+      "catalogEntryIds": [
+        "M160:205",
+        "M160:206",
+        "M160:207",
+        "M160:208"
+      ]
+    },
+    {
+      "pdgId": "M099",
+      "title": "K(1)(1650)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K1-1650.pdf",
+      "catalogEntryIds": [
+        "M099:209",
+        "M099:210",
+        "M099:211",
+        "M099:212"
+      ]
+    },
+    {
+      "pdgId": "M095",
+      "title": "K*(1680)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-star-1680.pdf",
+      "catalogEntryIds": [
+        "M095:213",
+        "M095:214",
+        "M095:215",
+        "M095:216"
+      ]
+    },
+    {
+      "pdgId": "M023",
+      "title": "K(2)(1770)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K2-1770.pdf",
+      "catalogEntryIds": [
+        "M023:217",
+        "M023:218",
+        "M023:219",
+        "M023:220"
+      ]
+    },
+    {
+      "pdgId": "M060",
+      "title": "K*(3)(1780)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K3-star-1780.pdf",
+      "catalogEntryIds": [
+        "M060:221",
+        "M060:222",
+        "M060:223",
+        "M060:224"
+      ]
+    },
+    {
+      "pdgId": "M146",
+      "title": "K(2)(1820)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K2-1820.pdf",
+      "catalogEntryIds": [
+        "M146:225",
+        "M146:226",
+        "M146:227",
+        "M146:228"
+      ]
+    },
+    {
+      "pdgId": "M088",
+      "title": "K(1830)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-1830.pdf",
+      "catalogEntryIds": [
+        "M088:229",
+        "M088:230",
+        "M088:231",
+        "M088:232"
+      ]
+    },
+    {
+      "pdgId": "M134",
+      "title": "K*(0)(1950)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K0-star-1950.pdf",
+      "catalogEntryIds": [
+        "M134:233",
+        "M134:234",
+        "M134:235",
+        "M134:236"
+      ]
+    },
+    {
+      "pdgId": "M104",
+      "title": "K*(2)(1980)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K2-star-1980.pdf",
+      "catalogEntryIds": [
+        "M104:237",
+        "M104:238",
+        "M104:239",
+        "M104:240"
+      ]
+    },
+    {
+      "pdgId": "M035",
+      "title": "K*(4)(2045)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K4-star-2045.pdf",
+      "catalogEntryIds": [
+        "M035:241",
+        "M035:242",
+        "M035:243",
+        "M035:244"
+      ]
+    },
+    {
+      "pdgId": "M040",
+      "title": "K(2)(2250)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K2-2250.pdf",
+      "catalogEntryIds": [
+        "M040:245",
+        "M040:246",
+        "M040:247",
+        "M040:248"
+      ]
+    },
+    {
+      "pdgId": "M090",
+      "title": "K(3)(2320)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K3-2320.pdf",
+      "catalogEntryIds": [
+        "M090:249",
+        "M090:250",
+        "M090:251",
+        "M090:252"
+      ]
+    },
+    {
+      "pdgId": "M098",
+      "title": "K*(5)(2380)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K5-star-2380.pdf",
+      "catalogEntryIds": [
+        "M098:253",
+        "M098:254",
+        "M098:255",
+        "M098:256"
+      ]
+    },
+    {
+      "pdgId": "M091",
+      "title": "K(4)(2500)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K4-2500.pdf",
+      "catalogEntryIds": [
+        "M091:257",
+        "M091:258",
+        "M091:259",
+        "M091:260"
+      ]
+    },
+    {
+      "pdgId": "M129",
+      "title": "K(3100)",
+      "section": "Strange Mesons (S = + −1, C = B = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-K-3100.pdf",
+      "catalogEntryIds": [
+        "M129:261",
+        "M129:262",
+        "M129:263",
+        "M129:264"
+      ]
+    },
+    {
+      "pdgId": "S031",
+      "title": "D+ −",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D-plus-minus.pdf",
+      "catalogEntryIds": [
+        "S031:265",
+        "S031:266"
+      ]
+    },
+    {
+      "pdgId": "S032",
+      "title": "D0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D-zero.pdf",
+      "catalogEntryIds": [
+        "S032:267",
+        "S032:268"
+      ]
+    },
+    {
+      "pdgId": "M061",
+      "title": "D*(2007)0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D-star-2007-zero.pdf",
+      "catalogEntryIds": [
+        "M061:269",
+        "M061:270"
+      ]
+    },
+    {
+      "pdgId": "M062",
+      "title": "D*(2010)+ −",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D-star-2010-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M062:271",
+        "M062:272"
+      ]
+    },
+    {
+      "pdgId": "M252",
+      "title": "D*(0)(2300)",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D0-star-2300.pdf",
+      "catalogEntryIds": [
+        "M252:273",
+        "M252:274",
+        "M252:275",
+        "M252:276"
+      ]
+    },
+    {
+      "pdgId": "M253",
+      "title": "D(1)(2420)",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D1-2420.pdf",
+      "catalogEntryIds": [
+        "M253:277",
+        "M253:278",
+        "M253:279",
+        "M253:280"
+      ]
+    },
+    {
+      "pdgId": "M180",
+      "title": "D(1)(2430)0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D1-2430-zero.pdf",
+      "catalogEntryIds": [
+        "M180:281",
+        "M180:282"
+      ]
+    },
+    {
+      "pdgId": "M254",
+      "title": "D*(2)(2460)",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D2-star-2460.pdf",
+      "catalogEntryIds": [
+        "M254:283",
+        "M254:284",
+        "M254:285",
+        "M254:286"
+      ]
+    },
+    {
+      "pdgId": "M198",
+      "title": "D(0)(2550)0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D-2550-zero.pdf",
+      "catalogEntryIds": [
+        "M198:287",
+        "M198:288",
+        "M198:289",
+        "M198:290"
+      ]
+    },
+    {
+      "pdgId": "M199",
+      "title": "D*(1)(2600)0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D1-star-2600-zero.pdf",
+      "catalogEntryIds": [
+        "M199:291",
+        "M199:292",
+        "M199:293",
+        "M199:294"
+      ]
+    },
+    {
+      "pdgId": "M158",
+      "title": "D*(2640)+ −",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D-star-2640-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M158:295",
+        "M158:296",
+        "M158:297",
+        "M158:298"
+      ]
+    },
+    {
+      "pdgId": "M228",
+      "title": "D2(2740)0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D2-2740-zero.pdf",
+      "catalogEntryIds": [
+        "M228:299",
+        "M228:300",
+        "M228:301",
+        "M228:302"
+      ]
+    },
+    {
+      "pdgId": "M203",
+      "title": "D3*(2750)",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D3-star-2750.pdf",
+      "catalogEntryIds": [
+        "M203:303",
+        "M203:304",
+        "M203:305",
+        "M203:306"
+      ]
+    },
+    {
+      "pdgId": "M249",
+      "title": "D1*(2760)0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D1-star-2760-zero.pdf",
+      "catalogEntryIds": [
+        "M249:307",
+        "M249:308",
+        "M249:309",
+        "M249:310"
+      ]
+    },
+    {
+      "pdgId": "M229",
+      "title": "D2*(3000)0",
+      "section": "Charmed Mesons (C = + −1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-D2-star-3000-zero.pdf",
+      "catalogEntryIds": [
+        "M229:311",
+        "M229:312",
+        "M229:313",
+        "M229:314"
+      ]
+    },
+    {
+      "pdgId": "S034",
+      "title": "D(s)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds-plus-minus.pdf",
+      "catalogEntryIds": [
+        "S034:315",
+        "S034:316"
+      ]
+    },
+    {
+      "pdgId": "S074",
+      "title": "D*(s)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds-star-plus-minus.pdf",
+      "catalogEntryIds": [
+        "S074:317",
+        "S074:318"
+      ]
+    },
+    {
+      "pdgId": "M172",
+      "title": "D*(s0)(2317)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds0-star-2317-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M172:319",
+        "M172:320"
+      ]
+    },
+    {
+      "pdgId": "M173",
+      "title": "D(s1)(2460)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds1-2460-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M173:321",
+        "M173:322"
+      ]
+    },
+    {
+      "pdgId": "M121",
+      "title": "D(s1)(2536)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds1-2536-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M121:323",
+        "M121:324"
+      ]
+    },
+    {
+      "pdgId": "M148",
+      "title": "D(s2)(2573)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds2-2573-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M148:325",
+        "M148:326"
+      ]
+    },
+    {
+      "pdgId": "M256",
+      "title": "D(s0)(2590)+",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds0-2590-plus.pdf",
+      "catalogEntryIds": [
+        "M256:327",
+        "M256:328"
+      ]
+    },
+    {
+      "pdgId": "M182",
+      "title": "D*(s1)(2700)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds1-star-2700-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M182:329",
+        "M182:330"
+      ]
+    },
+    {
+      "pdgId": "M196",
+      "title": "D*(s1)(2860)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds1-star-2860-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M196:331",
+        "M196:332"
+      ]
+    },
+    {
+      "pdgId": "M226",
+      "title": "D*(s3)(2860)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Ds3-star-2860-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M226:333",
+        "M226:334"
+      ]
+    },
+    {
+      "pdgId": "M197",
+      "title": "D(sJ)(3040)+−",
+      "section": "Charmed, Strange Mesons (C = S = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-DsJ-3040-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M197:335",
+        "M197:336"
+      ]
+    },
+    {
+      "pdgId": "S041",
+      "title": "B+−",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-B-plus-minus.pdf",
+      "catalogEntryIds": [
+        "S041:337",
+        "S041:338"
+      ]
+    },
+    {
+      "pdgId": "S042",
+      "title": "B0",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-B-zero.pdf",
+      "catalogEntryIds": [
+        "S042:339",
+        "S042:340"
+      ]
+    },
+    {
+      "pdgId": "S049",
+      "title": "B+−/B0 Admixture",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-B-plus-minus-B0-admixture.pdf",
+      "catalogEntryIds": [
+        "S049:listing"
+      ]
+    },
+    {
+      "pdgId": "S051",
+      "title": "B+−/B0/B(s)0/b-baryon Admixture",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-B-plus-minus-B0-Bs0-admixture.pdf",
+      "catalogEntryIds": [
+        "S051:listing"
+      ]
+    },
+    {
+      "pdgId": "S052",
+      "title": "V(cb) and V(ub) CKM Matrix Elements",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Vcb-Vub.pdf",
+      "catalogEntryIds": [
+        "S052:listing"
+      ]
+    },
+    {
+      "pdgId": "S085",
+      "title": "B*",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-B-star.pdf",
+      "catalogEntryIds": [
+        "S085:341",
+        "S085:342",
+        "S085:343",
+        "S085:344"
+      ]
+    },
+    {
+      "pdgId": "M244",
+      "title": "B(1)(5721)",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-B1-5721.pdf",
+      "catalogEntryIds": [
+        "M244:345",
+        "M244:346",
+        "M244:347",
+        "M244:348"
+      ]
+    },
+    {
+      "pdgId": "M151",
+      "title": "B*(J)(5732)",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-BJ-star-5732.pdf",
+      "catalogEntryIds": [
+        "M151:349",
+        "M151:350",
+        "M151:351",
+        "M151:352"
+      ]
+    },
+    {
+      "pdgId": "M245",
+      "title": "B*(2)(5747)",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-B2-star-5747.pdf",
+      "catalogEntryIds": [
+        "M245:353",
+        "M245:354",
+        "M245:355",
+        "M245:356"
+      ]
+    },
+    {
+      "pdgId": "M246",
+      "title": "B(J)(5840)",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-BJ-5840.pdf",
+      "catalogEntryIds": [
+        "M246:357",
+        "M246:358",
+        "M246:359",
+        "M246:360"
+      ]
+    },
+    {
+      "pdgId": "M248",
+      "title": "BJ(5970)",
+      "section": "Bottom Mesons (B = +−1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-BJ-5970.pdf",
+      "catalogEntryIds": [
+        "M248:361",
+        "M248:362",
+        "M248:363",
+        "M248:364"
+      ]
+    },
+    {
+      "pdgId": "S086",
+      "title": "B(s)0",
+      "section": "Bottom, Strange Mesons (B = +−1, S = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Bs-zero.pdf",
+      "catalogEntryIds": [
+        "S086:365",
+        "S086:366"
+      ]
+    },
+    {
+      "pdgId": "S087",
+      "title": "B*(s)",
+      "section": "Bottom, Strange Mesons (B = +−1, S = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Bs-star.pdf",
+      "catalogEntryIds": [
+        "S087:367",
+        "S087:368"
+      ]
+    },
+    {
+      "pdgId": "M187",
+      "title": "B(s1)(5830)0",
+      "section": "Bottom, Strange Mesons (B = +−1, S = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Bs1-5830-zero.pdf",
+      "catalogEntryIds": [
+        "M187:369",
+        "M187:370"
+      ]
+    },
+    {
+      "pdgId": "M186",
+      "title": "B*(s2)(5840)0",
+      "section": "Bottom, Strange Mesons (B = +−1, S = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Bs2-star-5840-zero.pdf",
+      "catalogEntryIds": [
+        "M186:371",
+        "M186:372"
+      ]
+    },
+    {
+      "pdgId": "M153",
+      "title": "B*(sJ)(5850)",
+      "section": "Bottom, Strange Mesons (B = +−1, S = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-BsJ-star-5850.pdf",
+      "catalogEntryIds": [
+        "M153:373",
+        "M153:374"
+      ]
+    },
+    {
+      "pdgId": "M257",
+      "title": "B(sJ)(6063)0",
+      "section": "Bottom, Strange Mesons (B = +−1, S = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-BsJ-6063-zero.pdf",
+      "catalogEntryIds": [
+        "M257:375",
+        "M257:376"
+      ]
+    },
+    {
+      "pdgId": "M258",
+      "title": "B(sJ)(6114)0",
+      "section": "Bottom, Strange Mesons (B = +−1, S = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-BsJ-6114-zero.pdf",
+      "catalogEntryIds": [
+        "M258:377",
+        "M258:378"
+      ]
+    },
+    {
+      "pdgId": "S091",
+      "title": "B(c)+−",
+      "section": "Bottom, Charmed Mesons (B = +−1, C = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Bc-plus-minus.pdf",
+      "catalogEntryIds": [
+        "S091:379",
+        "S091:380"
+      ]
+    },
+    {
+      "pdgId": "M271",
+      "title": "B(c)(1P)+−",
+      "section": "Bottom, Charmed Mesons (B = +−1, C = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Bc-1P-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M271:381",
+        "M271:382"
+      ]
+    },
+    {
+      "pdgId": "M217",
+      "title": "B(c)(2S)+−",
+      "section": "Bottom, Charmed Mesons (B = +−1, C = −+1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Bc-2S-plus-minus.pdf",
+      "catalogEntryIds": [
+        "M217:383",
+        "M217:384"
+      ]
+    },
+    {
+      "pdgId": "M026",
+      "title": "eta(c)(1S)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-c-1S.pdf",
+      "catalogEntryIds": [
+        "M026:385"
+      ]
+    },
+    {
+      "pdgId": "M070",
+      "title": "J/psi(1S)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-J-psi-1S.pdf",
+      "catalogEntryIds": [
+        "M070:386"
+      ]
+    },
+    {
+      "pdgId": "M056",
+      "title": "chi(c0)(1P)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c0-1P.pdf",
+      "catalogEntryIds": [
+        "M056:387"
+      ]
+    },
+    {
+      "pdgId": "M055",
+      "title": "chi(c1)(1P)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c1-1P.pdf",
+      "catalogEntryIds": [
+        "M055:388"
+      ]
+    },
+    {
+      "pdgId": "M144",
+      "title": "h(c)(1P)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-hc-1P.pdf",
+      "catalogEntryIds": [
+        "M144:389"
+      ]
+    },
+    {
+      "pdgId": "M057",
+      "title": "chi(c2)(1P)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c2-1P.pdf",
+      "catalogEntryIds": [
+        "M057:390"
+      ]
+    },
+    {
+      "pdgId": "M059",
+      "title": "eta(c)(2S)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-c-2S.pdf",
+      "catalogEntryIds": [
+        "M059:391"
+      ]
+    },
+    {
+      "pdgId": "M071",
+      "title": "psi(2S)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-2S.pdf",
+      "catalogEntryIds": [
+        "M071:392"
+      ]
+    },
+    {
+      "pdgId": "M053",
+      "title": "psi(3770)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-3770.pdf",
+      "catalogEntryIds": [
+        "M053:393"
+      ]
+    },
+    {
+      "pdgId": "M212",
+      "title": "psi(2)(3823)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-2-3823.pdf",
+      "catalogEntryIds": [
+        "M212:394"
+      ]
+    },
+    {
+      "pdgId": "M241",
+      "title": "psi(3)(3842)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-3-3842.pdf",
+      "catalogEntryIds": [
+        "M241:395"
+      ]
+    },
+    {
+      "pdgId": "M237",
+      "title": "chi(c0)(3860)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c0-3860.pdf",
+      "catalogEntryIds": [
+        "M237:396"
+      ]
+    },
+    {
+      "pdgId": "M176",
+      "title": "chi(c1)(3872)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c1-3872.pdf",
+      "catalogEntryIds": [
+        "M176:397"
+      ]
+    },
+    {
+      "pdgId": "M159",
+      "title": "chi(c0)(3915)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c0-3915.pdf",
+      "catalogEntryIds": [
+        "M159:398"
+      ]
+    },
+    {
+      "pdgId": "M050",
+      "title": "chi(c2)(3930)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c2-3930.pdf",
+      "catalogEntryIds": [
+        "M050:399"
+      ]
+    },
+    {
+      "pdgId": "M029",
+      "title": "X(3940)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-X-3940.pdf",
+      "catalogEntryIds": [
+        "M029:400"
+      ]
+    },
+    {
+      "pdgId": "M072",
+      "title": "psi(4040)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-4040.pdf",
+      "catalogEntryIds": [
+        "M072:401"
+      ]
+    },
+    {
+      "pdgId": "M193",
+      "title": "chi(c1)(4140)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c1-4140.pdf",
+      "catalogEntryIds": [
+        "M193:402"
+      ]
+    },
+    {
+      "pdgId": "M025",
+      "title": "psi(4160)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-4160.pdf",
+      "catalogEntryIds": [
+        "M025:403"
+      ]
+    },
+    {
+      "pdgId": "M190",
+      "title": "X(4160)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-X-4160.pdf",
+      "catalogEntryIds": [
+        "M190:404"
+      ]
+    },
+    {
+      "pdgId": "M074",
+      "title": "psi(4230)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-4230.pdf",
+      "catalogEntryIds": [
+        "M074:405"
+      ]
+    },
+    {
+      "pdgId": "M233",
+      "title": "chi(c1)(4274)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c1-4274.pdf",
+      "catalogEntryIds": [
+        "M233:406"
+      ]
+    },
+    {
+      "pdgId": "M194",
+      "title": "X(4350)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-X-4350.pdf",
+      "catalogEntryIds": [
+        "M194:407"
+      ]
+    },
+    {
+      "pdgId": "M181",
+      "title": "psi(4360)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-4360.pdf",
+      "catalogEntryIds": [
+        "M181:408"
+      ]
+    },
+    {
+      "pdgId": "M073",
+      "title": "psi(4415)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-4415.pdf",
+      "catalogEntryIds": [
+        "M073:409"
+      ]
+    },
+    {
+      "pdgId": "M234",
+      "title": "chi(c0)(4500)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c0-4500.pdf",
+      "catalogEntryIds": [
+        "M234:410"
+      ]
+    },
+    {
+      "pdgId": "M262",
+      "title": "X(4630)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-X-4630.pdf",
+      "catalogEntryIds": [
+        "M262:411"
+      ]
+    },
+    {
+      "pdgId": "M189",
+      "title": "psi(4660)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-psi-4660.pdf",
+      "catalogEntryIds": [
+        "M189:412"
+      ]
+    },
+    {
+      "pdgId": "M261",
+      "title": "chi(c1)(4685)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c1-4685.pdf",
+      "catalogEntryIds": [
+        "M261:413"
+      ]
+    },
+    {
+      "pdgId": "M235",
+      "title": "chi(c0)(4700)",
+      "section": "c cbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-c0-4700.pdf",
+      "catalogEntryIds": [
+        "M235:414"
+      ]
+    },
+    {
+      "pdgId": "M171",
+      "title": "eta(b)(1S)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-b-1S.pdf",
+      "catalogEntryIds": [
+        "M171:415"
+      ]
+    },
+    {
+      "pdgId": "M049",
+      "title": "Upsilon(1S)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-1S.pdf",
+      "catalogEntryIds": [
+        "M049:416"
+      ]
+    },
+    {
+      "pdgId": "M076",
+      "title": "chi(b0)(1P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b0-1P.pdf",
+      "catalogEntryIds": [
+        "M076:417"
+      ]
+    },
+    {
+      "pdgId": "M077",
+      "title": "chi(b1)(1P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b1-1P.pdf",
+      "catalogEntryIds": [
+        "M077:418"
+      ]
+    },
+    {
+      "pdgId": "M204",
+      "title": "h(b)(1P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-h-b-1P.pdf",
+      "catalogEntryIds": [
+        "M204:419"
+      ]
+    },
+    {
+      "pdgId": "M078",
+      "title": "chi(b2)(1P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b2-1P.pdf",
+      "catalogEntryIds": [
+        "M078:420"
+      ]
+    },
+    {
+      "pdgId": "M200",
+      "title": "eta(b)(2S)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-eta-b-2S.pdf",
+      "catalogEntryIds": [
+        "M200:421"
+      ]
+    },
+    {
+      "pdgId": "M052",
+      "title": "Upsilon(2S)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-2S.pdf",
+      "catalogEntryIds": [
+        "M052:422"
+      ]
+    },
+    {
+      "pdgId": "M177",
+      "title": "Upsilon(2)(1D)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-2-1D.pdf",
+      "catalogEntryIds": [
+        "M177:423"
+      ]
+    },
+    {
+      "pdgId": "M079",
+      "title": "chi(b0)(2P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b0-2P.pdf",
+      "catalogEntryIds": [
+        "M079:424"
+      ]
+    },
+    {
+      "pdgId": "M080",
+      "title": "chi(b1)(2P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b1-2P.pdf",
+      "catalogEntryIds": [
+        "M080:425"
+      ]
+    },
+    {
+      "pdgId": "M205",
+      "title": "h(b)(2P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-h-b-2P.pdf",
+      "catalogEntryIds": [
+        "M205:426"
+      ]
+    },
+    {
+      "pdgId": "M081",
+      "title": "chi(b2)(2P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b2-2P.pdf",
+      "catalogEntryIds": [
+        "M081:427"
+      ]
+    },
+    {
+      "pdgId": "M048",
+      "title": "Upsilon(3S)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-3S.pdf",
+      "catalogEntryIds": [
+        "M048:428"
+      ]
+    },
+    {
+      "pdgId": "M206",
+      "title": "chi(b1)(3P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b1-3P.pdf",
+      "catalogEntryIds": [
+        "M206:429"
+      ]
+    },
+    {
+      "pdgId": "M238",
+      "title": "chi(b2)(3P)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-chi-b2-3P.pdf",
+      "catalogEntryIds": [
+        "M238:430"
+      ]
+    },
+    {
+      "pdgId": "M047",
+      "title": "Upsilon(4S)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-4S.pdf",
+      "catalogEntryIds": [
+        "M047:431"
+      ]
+    },
+    {
+      "pdgId": "M243",
+      "title": "Upsilon(10753)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-10753.pdf",
+      "catalogEntryIds": [
+        "M243:432"
+      ]
+    },
+    {
+      "pdgId": "M092",
+      "title": "Upsilon(10860)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-10860.pdf",
+      "catalogEntryIds": [
+        "M092:433"
+      ]
+    },
+    {
+      "pdgId": "M093",
+      "title": "Upsilon(11020)",
+      "section": "b bbar Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-upsilon-11020.pdf",
+      "catalogEntryIds": [
+        "M093:434"
+      ]
+    },
+    {
+      "pdgId": "M250",
+      "title": "T(*)(cbarsbar0)(2870)0",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-star-cbar-sbar-0-2870-zero.pdf",
+      "catalogEntryIds": [
+        "M250:435"
+      ]
+    },
+    {
+      "pdgId": "M251",
+      "title": "T(*)(cbarsbar1)(2900)0",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-star-cbar-sbar-1-2900-zero.pdf",
+      "catalogEntryIds": [
+        "M251:436"
+      ]
+    },
+    {
+      "pdgId": "M269",
+      "title": "T(*)(csbar0)(2900)",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-star-c-sbar-0-2900.pdf",
+      "catalogEntryIds": [
+        "M269:437"
+      ]
+    },
+    {
+      "pdgId": "M265",
+      "title": "T(cc)(3875)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-cc-3875-plus.pdf",
+      "catalogEntryIds": [
+        "M265:438"
+      ]
+    },
+    {
+      "pdgId": "M210",
+      "title": "T(ccbar1)(3900)",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-1-3900.pdf",
+      "catalogEntryIds": [
+        "M210:439"
+      ]
+    },
+    {
+      "pdgId": "M259",
+      "title": "T(ccbarsbar1)(4000)",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-sbar-1-4000.pdf",
+      "catalogEntryIds": [
+        "M259:440"
+      ]
+    },
+    {
+      "pdgId": "M213",
+      "title": "T(ccbar)(4020)",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-4020.pdf",
+      "catalogEntryIds": [
+        "M213:441"
+      ]
+    },
+    {
+      "pdgId": "M191",
+      "title": "T(ccbar)(4050)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-4050-plus.pdf",
+      "catalogEntryIds": [
+        "M191:442"
+      ]
+    },
+    {
+      "pdgId": "M223",
+      "title": "T(ccbar)(4055)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-4055-plus.pdf",
+      "catalogEntryIds": [
+        "M223:443"
+      ]
+    },
+    {
+      "pdgId": "M240",
+      "title": "T(ccbar)(4100)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-4100-plus.pdf",
+      "catalogEntryIds": [
+        "M240:444"
+      ]
+    },
+    {
+      "pdgId": "M231",
+      "title": "T(ccbar1)(4200)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-1-4200-plus.pdf",
+      "catalogEntryIds": [
+        "M231:445"
+      ]
+    },
+    {
+      "pdgId": "M260",
+      "title": "T(ccbarsbar1)(4220)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-sbar-1-4220-plus.pdf",
+      "catalogEntryIds": [
+        "M260:446"
+      ]
+    },
+    {
+      "pdgId": "M216",
+      "title": "T(ccbar0)(4240)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-0-4240-plus.pdf",
+      "catalogEntryIds": [
+        "M216:447"
+      ]
+    },
+    {
+      "pdgId": "M192",
+      "title": "T(ccbar)(4250)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-4250-plus.pdf",
+      "catalogEntryIds": [
+        "M192:448"
+      ]
+    },
+    {
+      "pdgId": "M195",
+      "title": "T(ccbar1)(4430)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-cbar-1-4430-plus.pdf",
+      "catalogEntryIds": [
+        "M195:449"
+      ]
+    },
+    {
+      "pdgId": "M232",
+      "title": "T(bsbar)(5568)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-b-sbar-5568-plus.pdf",
+      "catalogEntryIds": [
+        "M232:450"
+      ]
+    },
+    {
+      "pdgId": "M272",
+      "title": "T(cccbarcbar)(6600)",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-c-cbar-cbar-6600.pdf",
+      "catalogEntryIds": [
+        "M272:451"
+      ]
+    },
+    {
+      "pdgId": "M268",
+      "title": "T(cccbarcbar)(6900)0",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-c-cbar-cbar-6900-zero.pdf",
+      "catalogEntryIds": [
+        "M268:452"
+      ]
+    },
+    {
+      "pdgId": "M273",
+      "title": "T(cccbarcbar)(7100)",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-c-c-cbar-cbar-7100.pdf",
+      "catalogEntryIds": [
+        "M273:453"
+      ]
+    },
+    {
+      "pdgId": "M207",
+      "title": "T(bbbar1)(10610)",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-b-bbar-1-10610.pdf",
+      "catalogEntryIds": [
+        "M207:454"
+      ]
+    },
+    {
+      "pdgId": "M208",
+      "title": "T(bbbar1)(10650)+",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-T-b-bbar-1-10650-plus.pdf",
+      "catalogEntryIds": [
+        "M208:455"
+      ]
+    },
+    {
+      "pdgId": "M300",
+      "title": "Further States",
+      "section": "Other Mesons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-further-states.pdf",
+      "catalogEntryIds": [
+        "M300:listing"
+      ]
+    },
+    {
+      "pdgId": "S016",
+      "title": "p",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-p.pdf",
+      "catalogEntryIds": [
+        "S016:456",
+        "S016:457"
+      ]
+    },
+    {
+      "pdgId": "S017",
+      "title": "n",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-n.pdf",
+      "catalogEntryIds": [
+        "S017:458",
+        "S017:459"
+      ]
+    },
+    {
+      "pdgId": "B061",
+      "title": "N(1440) 1/2+",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1440-1o2-plus.pdf",
+      "catalogEntryIds": [
+        "B061:460",
+        "B061:461",
+        "B061:462",
+        "B061:463"
+      ]
+    },
+    {
+      "pdgId": "B062",
+      "title": "N(1520) 3/2−",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1520-3o2-minus.pdf",
+      "catalogEntryIds": [
+        "B062:464",
+        "B062:465",
+        "B062:466",
+        "B062:467"
+      ]
+    },
+    {
+      "pdgId": "B063",
+      "title": "N(1535) 1/2−",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1535-1o2-minus.pdf",
+      "catalogEntryIds": [
+        "B063:468",
+        "B063:469",
+        "B063:470",
+        "B063:471"
+      ]
+    },
+    {
+      "pdgId": "B066",
+      "title": "N(1650) 1/2−",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1650-1o2-minus.pdf",
+      "catalogEntryIds": [
+        "B066:472",
+        "B066:473",
+        "B066:474",
+        "B066:475"
+      ]
+    },
+    {
+      "pdgId": "B064",
+      "title": "N(1675) 5/2−",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1675-5o2-minus.pdf",
+      "catalogEntryIds": [
+        "B064:476",
+        "B064:477",
+        "B064:478",
+        "B064:479"
+      ]
+    },
+    {
+      "pdgId": "B065",
+      "title": "N(1680) 5/2+",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1680-5o2-plus.pdf",
+      "catalogEntryIds": [
+        "B065:480",
+        "B065:481",
+        "B065:482",
+        "B065:483"
+      ]
+    },
+    {
+      "pdgId": "B018",
+      "title": "N(1700) 3/2−",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1700-3o2-minus.pdf",
+      "catalogEntryIds": [
+        "B018:484",
+        "B018:485",
+        "B018:486",
+        "B018:487"
+      ]
+    },
+    {
+      "pdgId": "B014",
+      "title": "N(1710) 1/2+",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1710-1o2-plus.pdf",
+      "catalogEntryIds": [
+        "B014:488",
+        "B014:489",
+        "B014:490",
+        "B014:491"
+      ]
+    },
+    {
+      "pdgId": "B015",
+      "title": "N(1720) 3/2+",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1720-3o2-plus.pdf",
+      "catalogEntryIds": [
+        "B015:492",
+        "B015:493",
+        "B015:494",
+        "B015:495"
+      ]
+    },
+    {
+      "pdgId": "B009",
+      "title": "N(1860) 5/2+",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1860-5o2-plus.pdf",
+      "catalogEntryIds": [
+        "B009:496",
+        "B009:497",
+        "B009:498",
+        "B009:499"
+      ]
+    },
+    {
+      "pdgId": "B016",
+      "title": "N(1875) 3/2−",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1875-3o2-minus.pdf",
+      "catalogEntryIds": [
+        "B016:500",
+        "B016:501",
+        "B016:502",
+        "B016:503"
+      ]
+    },
+    {
+      "pdgId": "B087",
+      "title": "N(1880) 1/2+",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1880-1o2-plus.pdf",
+      "catalogEntryIds": [
+        "B087:504",
+        "B087:505",
+        "B087:506",
+        "B087:507"
+      ]
+    },
+    {
+      "pdgId": "B004",
+      "title": "N(1895) 1/2−",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-N-1895-1o2-minus.pdf",
+      "catalogEntryIds": [
+        "B004:508",
+        "B004:509",
+        "B004:510",
+        "B004:511"
+      ]
+    },
+    {
+      "pdgId": "B144",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B144:512",
+        "B144:513",
+        "B144:514",
+        "B144:515"
+      ]
+    },
+    {
+      "pdgId": "B017",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B017:516",
+        "B017:517",
+        "B017:518",
+        "B017:519"
+      ]
+    },
+    {
+      "pdgId": "B006",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B006:520",
+        "B006:521",
+        "B006:522",
+        "B006:523"
+      ]
+    },
+    {
+      "pdgId": "B159",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B159:524",
+        "B159:525",
+        "B159:526",
+        "B159:527"
+      ]
+    },
+    {
+      "pdgId": "B005",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B005:528",
+        "B005:529",
+        "B005:530",
+        "B005:531"
+      ]
+    },
+    {
+      "pdgId": "B132",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B132:532",
+        "B132:533",
+        "B132:534",
+        "B132:535"
+      ]
+    },
+    {
+      "pdgId": "B024",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B024:536",
+        "B024:537",
+        "B024:538",
+        "B024:539"
+      ]
+    },
+    {
+      "pdgId": "B071",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B071:540",
+        "B071:541",
+        "B071:542",
+        "B071:543"
+      ]
+    },
+    {
+      "pdgId": "B090",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B090:544",
+        "B090:545",
+        "B090:546",
+        "B090:547"
+      ]
+    },
+    {
+      "pdgId": "B113",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B113:548",
+        "B113:549",
+        "B113:550",
+        "B113:551"
+      ]
+    },
+    {
+      "pdgId": "B003",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B003:552",
+        "B003:553",
+        "B003:554",
+        "B003:555"
+      ]
+    },
+    {
+      "pdgId": "B160",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B160:556",
+        "B160:557",
+        "B160:558",
+        "B160:559"
+      ]
+    },
+    {
+      "pdgId": "B120",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B120:560",
+        "B120:561",
+        "B120:562",
+        "B120:563"
+      ]
+    },
+    {
+      "pdgId": "B121",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B121:564",
+        "B121:565",
+        "B121:566",
+        "B121:567"
+      ]
+    },
+    {
+      "pdgId": "B128",
+      "title": "click here",
+      "section": "N Baryons (S = 0, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B128:568",
+        "B128:569",
+        "B128:570",
+        "B128:571"
+      ]
+    },
+    {
+      "pdgId": "B033",
+      "title": "Delta(1232) 3/2+",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1232.pdf",
+      "catalogEntryIds": [
+        "B033:572",
+        "B033:573",
+        "B033:574",
+        "B033:575",
+        "B033:576",
+        "B033:577",
+        "B033:578",
+        "B033:579"
+      ]
+    },
+    {
+      "pdgId": "B019",
+      "title": "Delta(1600) 3/2+",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1600.pdf",
+      "catalogEntryIds": [
+        "B019:580",
+        "B019:581",
+        "B019:582",
+        "B019:583",
+        "B019:584",
+        "B019:585",
+        "B019:586",
+        "B019:587"
+      ]
+    },
+    {
+      "pdgId": "B082",
+      "title": "Delta(1620) 1/2−",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1620.pdf",
+      "catalogEntryIds": [
+        "B082:588",
+        "B082:589",
+        "B082:590",
+        "B082:591",
+        "B082:592",
+        "B082:593",
+        "B082:594",
+        "B082:595"
+      ]
+    },
+    {
+      "pdgId": "B010",
+      "title": "Delta(1700) 3/2−",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1700.pdf",
+      "catalogEntryIds": [
+        "B010:596",
+        "B010:597",
+        "B010:598",
+        "B010:599",
+        "B010:600",
+        "B010:601",
+        "B010:602",
+        "B010:603"
+      ]
+    },
+    {
+      "pdgId": "B145",
+      "title": "Delta(1750) 1/2+",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1750.pdf",
+      "catalogEntryIds": [
+        "B145:604",
+        "B145:605",
+        "B145:606",
+        "B145:607",
+        "B145:608",
+        "B145:609",
+        "B145:610",
+        "B145:611"
+      ]
+    },
+    {
+      "pdgId": "B030",
+      "title": "Delta(1900) 1/2−",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1900.pdf",
+      "catalogEntryIds": [
+        "B030:612",
+        "B030:613",
+        "B030:614",
+        "B030:615",
+        "B030:616",
+        "B030:617",
+        "B030:618",
+        "B030:619"
+      ]
+    },
+    {
+      "pdgId": "B011",
+      "title": "Delta(1905) 5/2+",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1905.pdf",
+      "catalogEntryIds": [
+        "B011:620",
+        "B011:621",
+        "B011:622",
+        "B011:623",
+        "B011:624",
+        "B011:625",
+        "B011:626",
+        "B011:627"
+      ]
+    },
+    {
+      "pdgId": "B012",
+      "title": "Delta(1910) 1/2+",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1910.pdf",
+      "catalogEntryIds": [
+        "B012:628",
+        "B012:629",
+        "B012:630",
+        "B012:631",
+        "B012:632",
+        "B012:633",
+        "B012:634",
+        "B012:635"
+      ]
+    },
+    {
+      "pdgId": "B117",
+      "title": "Delta(1920) 3/2+",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1920.pdf",
+      "catalogEntryIds": [
+        "B117:636",
+        "B117:637",
+        "B117:638",
+        "B117:639",
+        "B117:640",
+        "B117:641",
+        "B117:642",
+        "B117:643"
+      ]
+    },
+    {
+      "pdgId": "B013",
+      "title": "Delta(1930) 5/2−",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1930.pdf",
+      "catalogEntryIds": [
+        "B013:644",
+        "B013:645",
+        "B013:646",
+        "B013:647",
+        "B013:648",
+        "B013:649",
+        "B013:650",
+        "B013:651"
+      ]
+    },
+    {
+      "pdgId": "B136",
+      "title": "Delta(1940) 3/2−",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1940.pdf",
+      "catalogEntryIds": [
+        "B136:652",
+        "B136:653",
+        "B136:654",
+        "B136:655",
+        "B136:656",
+        "B136:657",
+        "B136:658",
+        "B136:659"
+      ]
+    },
+    {
+      "pdgId": "B083",
+      "title": "Delta(1950) 7/2+",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Delta-1950.pdf",
+      "catalogEntryIds": [
+        "B083:660",
+        "B083:661",
+        "B083:662",
+        "B083:663",
+        "B083:664",
+        "B083:665",
+        "B083:666",
+        "B083:667"
+      ]
+    },
+    {
+      "pdgId": "B139",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B139:668",
+        "B139:669",
+        "B139:670",
+        "B139:671",
+        "B139:672",
+        "B139:673",
+        "B139:674",
+        "B139:675"
+      ]
+    },
+    {
+      "pdgId": "B137",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B137:676",
+        "B137:677",
+        "B137:678",
+        "B137:679",
+        "B137:680",
+        "B137:681",
+        "B137:682",
+        "B137:683"
+      ]
+    },
+    {
+      "pdgId": "B135",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B135:684",
+        "B135:685",
+        "B135:686",
+        "B135:687",
+        "B135:688",
+        "B135:689",
+        "B135:690",
+        "B135:691"
+      ]
+    },
+    {
+      "pdgId": "B123",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B123:692",
+        "B123:693",
+        "B123:694",
+        "B123:695",
+        "B123:696",
+        "B123:697",
+        "B123:698",
+        "B123:699"
+      ]
+    },
+    {
+      "pdgId": "B134",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B134:700",
+        "B134:701",
+        "B134:702",
+        "B134:703",
+        "B134:704",
+        "B134:705",
+        "B134:706",
+        "B134:707"
+      ]
+    },
+    {
+      "pdgId": "B133",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B133:708",
+        "B133:709",
+        "B133:710",
+        "B133:711",
+        "B133:712",
+        "B133:713",
+        "B133:714",
+        "B133:715"
+      ]
+    },
+    {
+      "pdgId": "B124",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B124:716",
+        "B124:717",
+        "B124:718",
+        "B124:719",
+        "B124:720",
+        "B124:721",
+        "B124:722",
+        "B124:723"
+      ]
+    },
+    {
+      "pdgId": "B084",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B084:724",
+        "B084:725",
+        "B084:726",
+        "B084:727",
+        "B084:728",
+        "B084:729",
+        "B084:730",
+        "B084:731"
+      ]
+    },
+    {
+      "pdgId": "B125",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B125:732",
+        "B125:733",
+        "B125:734",
+        "B125:735",
+        "B125:736",
+        "B125:737",
+        "B125:738",
+        "B125:739"
+      ]
+    },
+    {
+      "pdgId": "B126",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B126:740",
+        "B126:741",
+        "B126:742",
+        "B126:743",
+        "B126:744",
+        "B126:745",
+        "B126:746",
+        "B126:747"
+      ]
+    },
+    {
+      "pdgId": "B127",
+      "title": "click here",
+      "section": "Delta Baryons (S = 0, I = 3/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B127:748",
+        "B127:749",
+        "B127:750",
+        "B127:751",
+        "B127:752",
+        "B127:753",
+        "B127:754",
+        "B127:755"
+      ]
+    },
+    {
+      "pdgId": "S018",
+      "title": "Lambda 1/2+",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda.pdf",
+      "catalogEntryIds": [
+        "S018:756",
+        "S018:757"
+      ]
+    },
+    {
+      "pdgId": "B189",
+      "title": "Lambda(1380) 1/2−",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Lambda-1380-1o2-minus.pdf",
+      "catalogEntryIds": [
+        "B189:758",
+        "B189:759"
+      ]
+    },
+    {
+      "pdgId": "B037",
+      "title": "Lambda(1405) 1/2−",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1405.pdf",
+      "catalogEntryIds": [
+        "B037:760",
+        "B037:761"
+      ]
+    },
+    {
+      "pdgId": "B038",
+      "title": "Lambda(1520) 3/2−",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1520.pdf",
+      "catalogEntryIds": [
+        "B038:762",
+        "B038:763"
+      ]
+    },
+    {
+      "pdgId": "B101",
+      "title": "Lambda(1600) 1/2+",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1600.pdf",
+      "catalogEntryIds": [
+        "B101:764",
+        "B101:765"
+      ]
+    },
+    {
+      "pdgId": "B040",
+      "title": "Lambda(1670) 1/2−",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1670.pdf",
+      "catalogEntryIds": [
+        "B040:766",
+        "B040:767"
+      ]
+    },
+    {
+      "pdgId": "B055",
+      "title": "Lambda(1690) 3/2−",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1690.pdf",
+      "catalogEntryIds": [
+        "B055:768",
+        "B055:769"
+      ]
+    },
+    {
+      "pdgId": "B164",
+      "title": "Lambda(1710) 1/2+",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1710.pdf",
+      "catalogEntryIds": [
+        "B164:770",
+        "B164:771"
+      ]
+    },
+    {
+      "pdgId": "B036",
+      "title": "Lambda(1800) 1/2−",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1800.pdf",
+      "catalogEntryIds": [
+        "B036:772",
+        "B036:773"
+      ]
+    },
+    {
+      "pdgId": "B077",
+      "title": "Lambda(1810) 1/2+",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1810.pdf",
+      "catalogEntryIds": [
+        "B077:774",
+        "B077:775"
+      ]
+    },
+    {
+      "pdgId": "B039",
+      "title": "Lambda(1820) 5/2+",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-1820.pdf",
+      "catalogEntryIds": [
+        "B039:776",
+        "B039:777"
+      ]
+    },
+    {
+      "pdgId": "B056",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B056:778",
+        "B056:779"
+      ]
+    },
+    {
+      "pdgId": "B060",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B060:780",
+        "B060:781"
+      ]
+    },
+    {
+      "pdgId": "B089",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B089:782",
+        "B089:783"
+      ]
+    },
+    {
+      "pdgId": "B165",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B165:784",
+        "B165:785"
+      ]
+    },
+    {
+      "pdgId": "B190",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B190:786",
+        "B190:787"
+      ]
+    },
+    {
+      "pdgId": "B191",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B191:788",
+        "B191:789"
+      ]
+    },
+    {
+      "pdgId": "B027",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B027:790",
+        "B027:791"
+      ]
+    },
+    {
+      "pdgId": "B041",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B041:792",
+        "B041:793"
+      ]
+    },
+    {
+      "pdgId": "B035",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B035:794",
+        "B035:795"
+      ]
+    },
+    {
+      "pdgId": "B112",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B112:796",
+        "B112:797"
+      ]
+    },
+    {
+      "pdgId": "B042",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B042:798",
+        "B042:799"
+      ]
+    },
+    {
+      "pdgId": "B007",
+      "title": "click here",
+      "section": "Lambda Baryons (S = -1, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B007:800",
+        "B007:801"
+      ]
+    },
+    {
+      "pdgId": "S019",
+      "title": "Sigma+",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-plus.pdf",
+      "catalogEntryIds": [
+        "S019:802",
+        "S019:803"
+      ]
+    },
+    {
+      "pdgId": "S021",
+      "title": "Sigma0",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-zero.pdf",
+      "catalogEntryIds": [
+        "S021:804",
+        "S021:805"
+      ]
+    },
+    {
+      "pdgId": "S020",
+      "title": "Sigma−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-minus.pdf",
+      "catalogEntryIds": [
+        "S020:806",
+        "S020:807"
+      ]
+    },
+    {
+      "pdgId": "B043",
+      "title": "Sigma(1385) 3/2+",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1385.pdf",
+      "catalogEntryIds": [
+        "B043:808",
+        "B043:809",
+        "B043:810",
+        "B043:811",
+        "B043:812",
+        "B043:813"
+      ]
+    },
+    {
+      "pdgId": "B000",
+      "title": "Sigma(1580) 3/2−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1580.pdf",
+      "catalogEntryIds": [
+        "B000:814",
+        "B000:815",
+        "B000:816",
+        "B000:817",
+        "B000:818",
+        "B000:819"
+      ]
+    },
+    {
+      "pdgId": "B032",
+      "title": "Sigma(1620) 1/2−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1620.pdf",
+      "catalogEntryIds": [
+        "B032:820",
+        "B032:821",
+        "B032:822",
+        "B032:823",
+        "B032:824",
+        "B032:825"
+      ]
+    },
+    {
+      "pdgId": "B079",
+      "title": "Sigma(1660) 1/2+",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1660.pdf",
+      "catalogEntryIds": [
+        "B079:826",
+        "B079:827",
+        "B079:828",
+        "B079:829",
+        "B079:830",
+        "B079:831"
+      ]
+    },
+    {
+      "pdgId": "B044",
+      "title": "Sigma(1670) 3/2−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1670.pdf",
+      "catalogEntryIds": [
+        "B044:832",
+        "B044:833",
+        "B044:834",
+        "B044:835",
+        "B044:836",
+        "B044:837"
+      ]
+    },
+    {
+      "pdgId": "B057",
+      "title": "Sigma(1750) 1/2−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1750.pdf",
+      "catalogEntryIds": [
+        "B057:838",
+        "B057:839",
+        "B057:840",
+        "B057:841",
+        "B057:842",
+        "B057:843"
+      ]
+    },
+    {
+      "pdgId": "B045",
+      "title": "Sigma(1775) 5/2−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1775.pdf",
+      "catalogEntryIds": [
+        "B045:844",
+        "B045:845",
+        "B045:846",
+        "B045:847",
+        "B045:848",
+        "B045:849"
+      ]
+    },
+    {
+      "pdgId": "B166",
+      "title": "Sigma(1780) 3/2+",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1780-3o2-plus.pdf",
+      "catalogEntryIds": [
+        "B166:850",
+        "B166:851",
+        "B166:852",
+        "B166:853",
+        "B166:854",
+        "B166:855"
+      ]
+    },
+    {
+      "pdgId": "B067",
+      "title": "Sigma(1880) 1/2+",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1880.pdf",
+      "catalogEntryIds": [
+        "B067:856",
+        "B067:857",
+        "B067:858",
+        "B067:859",
+        "B067:860",
+        "B067:861"
+      ]
+    },
+    {
+      "pdgId": "B167",
+      "title": "Sigma(1900) 1/2−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1900.pdf",
+      "catalogEntryIds": [
+        "B167:862",
+        "B167:863",
+        "B167:864",
+        "B167:865",
+        "B167:866",
+        "B167:867"
+      ]
+    },
+    {
+      "pdgId": "B098",
+      "title": "Sigma(1910) 3/2−",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-1910-3o2-minus.pdf",
+      "catalogEntryIds": [
+        "B098:868",
+        "B098:869",
+        "B098:870",
+        "B098:871",
+        "B098:872",
+        "B098:873"
+      ]
+    },
+    {
+      "pdgId": "B046",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B046:874",
+        "B046:875",
+        "B046:876",
+        "B046:877",
+        "B046:878",
+        "B046:879"
+      ]
+    },
+    {
+      "pdgId": "B168",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B168:880",
+        "B168:881",
+        "B168:882",
+        "B168:883",
+        "B168:884",
+        "B168:885"
+      ]
+    },
+    {
+      "pdgId": "B002",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B002:886",
+        "B002:887",
+        "B002:888",
+        "B002:889",
+        "B002:890",
+        "B002:891"
+      ]
+    },
+    {
+      "pdgId": "B047",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B047:892",
+        "B047:893",
+        "B047:894",
+        "B047:895",
+        "B047:896",
+        "B047:897"
+      ]
+    },
+    {
+      "pdgId": "B034",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B034:898",
+        "B034:899",
+        "B034:900",
+        "B034:901",
+        "B034:902",
+        "B034:903"
+      ]
+    },
+    {
+      "pdgId": "B088",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B088:904",
+        "B088:905",
+        "B088:906",
+        "B088:907",
+        "B088:908",
+        "B088:909"
+      ]
+    },
+    {
+      "pdgId": "B026",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B026:910",
+        "B026:911",
+        "B026:912",
+        "B026:913",
+        "B026:914",
+        "B026:915"
+      ]
+    },
+    {
+      "pdgId": "B183",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B183:916",
+        "B183:917",
+        "B183:918",
+        "B183:919",
+        "B183:920",
+        "B183:921"
+      ]
+    },
+    {
+      "pdgId": "B184",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B184:922",
+        "B184:923",
+        "B184:924",
+        "B184:925",
+        "B184:926",
+        "B184:927"
+      ]
+    },
+    {
+      "pdgId": "B048",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B048:928",
+        "B048:929",
+        "B048:930",
+        "B048:931",
+        "B048:932",
+        "B048:933"
+      ]
+    },
+    {
+      "pdgId": "B053",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B053:934",
+        "B053:935",
+        "B053:936",
+        "B053:937",
+        "B053:938",
+        "B053:939"
+      ]
+    },
+    {
+      "pdgId": "B054",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B054:940",
+        "B054:941",
+        "B054:942",
+        "B054:943",
+        "B054:944",
+        "B054:945"
+      ]
+    },
+    {
+      "pdgId": "B059",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B059:946",
+        "B059:947",
+        "B059:948",
+        "B059:949",
+        "B059:950",
+        "B059:951"
+      ]
+    },
+    {
+      "pdgId": "B118",
+      "title": "click here",
+      "section": "Sigma Baryons (S = -1, I = 1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B118:952",
+        "B118:953",
+        "B118:954",
+        "B118:955",
+        "B118:956",
+        "B118:957"
+      ]
+    },
+    {
+      "pdgId": "S023",
+      "title": "Xi0",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xi-zero.pdf",
+      "catalogEntryIds": [
+        "S023:958",
+        "S023:959"
+      ]
+    },
+    {
+      "pdgId": "S022",
+      "title": "Xi-",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xi-minus.pdf",
+      "catalogEntryIds": [
+        "S022:960",
+        "S022:961"
+      ]
+    },
+    {
+      "pdgId": "B049",
+      "title": "Xi(1530)",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xi-1530.pdf",
+      "catalogEntryIds": [
+        "B049:962",
+        "B049:963",
+        "B049:964",
+        "B049:965"
+      ]
+    },
+    {
+      "pdgId": "B021",
+      "title": "Xi(1620)",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xi-1620.pdf",
+      "catalogEntryIds": [
+        "B021:966",
+        "B021:967",
+        "B021:968",
+        "B021:969"
+      ]
+    },
+    {
+      "pdgId": "B105",
+      "title": "Xi(1690)",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xi-1690.pdf",
+      "catalogEntryIds": [
+        "B105:970",
+        "B105:971",
+        "B105:972",
+        "B105:973"
+      ]
+    },
+    {
+      "pdgId": "B050",
+      "title": "Xi(1820)",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xi-1820.pdf",
+      "catalogEntryIds": [
+        "B050:974",
+        "B050:975",
+        "B050:976",
+        "B050:977"
+      ]
+    },
+    {
+      "pdgId": "B052",
+      "title": "click here",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B052:978",
+        "B052:979",
+        "B052:980",
+        "B052:981"
+      ]
+    },
+    {
+      "pdgId": "B068",
+      "title": "click here",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B068:982",
+        "B068:983",
+        "B068:984",
+        "B068:985"
+      ]
+    },
+    {
+      "pdgId": "B103",
+      "title": "click here",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B103:986",
+        "B103:987",
+        "B103:988",
+        "B103:989"
+      ]
+    },
+    {
+      "pdgId": "B022",
+      "title": "click here",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B022:990",
+        "B022:991",
+        "B022:992",
+        "B022:993"
+      ]
+    },
+    {
+      "pdgId": "B131",
+      "title": "click here",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B131:994",
+        "B131:995",
+        "B131:996",
+        "B131:997"
+      ]
+    },
+    {
+      "pdgId": "B099",
+      "title": "click here",
+      "section": "XI Baryons (S = -2, I = 1/2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B099:998",
+        "B099:999",
+        "B099:1000",
+        "B099:1001"
+      ]
+    },
+    {
+      "pdgId": "S024",
+      "title": "Omega-",
+      "section": "Omega Baryons (S = -3, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-minus.pdf",
+      "catalogEntryIds": [
+        "S024:1002",
+        "S024:1003"
+      ]
+    },
+    {
+      "pdgId": "B179",
+      "title": "Omega(2012)-",
+      "section": "Omega Baryons (S = -3, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-2012-minus.pdf",
+      "catalogEntryIds": [
+        "B179:1004",
+        "B179:1005"
+      ]
+    },
+    {
+      "pdgId": "B211",
+      "title": "Omega(2109)-",
+      "section": "Omega Baryons (S = -3, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Omega-2109-minus.pdf",
+      "catalogEntryIds": [
+        "B211:1006",
+        "B211:1007"
+      ]
+    },
+    {
+      "pdgId": "B141",
+      "title": "Omega(2250)-",
+      "section": "Omega Baryons (S = -3, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-2250-minus.pdf",
+      "catalogEntryIds": [
+        "B141:1008",
+        "B141:1009"
+      ]
+    },
+    {
+      "pdgId": "B142",
+      "title": "Omega(2380)-",
+      "section": "Omega Baryons (S = -3, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-2380-minus.pdf",
+      "catalogEntryIds": [
+        "B142:1010",
+        "B142:1011"
+      ]
+    },
+    {
+      "pdgId": "B143",
+      "title": "Omega(2470)-",
+      "section": "Omega Baryons (S = -3, I = 0)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omega-2470-minus.pdf",
+      "catalogEntryIds": [
+        "B143:1012",
+        "B143:1013"
+      ]
+    },
+    {
+      "pdgId": "S033",
+      "title": "Lambda(c)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdac-plus.pdf",
+      "catalogEntryIds": [
+        "S033:1014",
+        "S033:1015"
+      ]
+    },
+    {
+      "pdgId": "B119",
+      "title": "Lambda(c)(2595)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdac-2595-plus.pdf",
+      "catalogEntryIds": [
+        "B119:1016",
+        "B119:1017"
+      ]
+    },
+    {
+      "pdgId": "B102",
+      "title": "Lambda(c)(2625)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-labmdac-2625-plus.pdf",
+      "catalogEntryIds": [
+        "B102:1018",
+        "B102:1019"
+      ]
+    },
+    {
+      "pdgId": "B150",
+      "title": "Lambda(c)(2765)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdac-2765-plus.pdf",
+      "catalogEntryIds": [
+        "B150:1020",
+        "B150:1021"
+      ]
+    },
+    {
+      "pdgId": "B178",
+      "title": "Lambda(c)(2860)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdac-2860-plus.pdf",
+      "catalogEntryIds": [
+        "B178:1022",
+        "B178:1023"
+      ]
+    },
+    {
+      "pdgId": "B151",
+      "title": "Lambda(c)(2880)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdac-2880-plus.pdf",
+      "catalogEntryIds": [
+        "B151:1024",
+        "B151:1025"
+      ]
+    },
+    {
+      "pdgId": "B206",
+      "title": "Lambda(c)(2910)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Lambda-c-2910-plus.pdf",
+      "catalogEntryIds": [
+        "B206:1026",
+        "B206:1027"
+      ]
+    },
+    {
+      "pdgId": "B122",
+      "title": "Lambda(c)(2940)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambda-2940-plus.pdf",
+      "catalogEntryIds": [
+        "B122:1028",
+        "B122:1029"
+      ]
+    },
+    {
+      "pdgId": "B104",
+      "title": "Sigma(c)(2455)",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigmac-2455.pdf",
+      "catalogEntryIds": [
+        "B104:1030",
+        "B104:1031",
+        "B104:1032",
+        "B104:1033",
+        "B104:1034",
+        "B104:1035"
+      ]
+    },
+    {
+      "pdgId": "B115",
+      "title": "Sigma(c)(2520)",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigmac-2520.pdf",
+      "catalogEntryIds": [
+        "B115:1036",
+        "B115:1037",
+        "B115:1038",
+        "B115:1039",
+        "B115:1040",
+        "B115:1041"
+      ]
+    },
+    {
+      "pdgId": "B155",
+      "title": "Sigma(c)(2800)",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigmac-2800.pdf",
+      "catalogEntryIds": [
+        "B155:1042",
+        "B155:1043"
+      ]
+    },
+    {
+      "pdgId": "S045",
+      "title": "Xi(c)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xic-plus.pdf",
+      "catalogEntryIds": [
+        "S045:1044",
+        "S045:1045"
+      ]
+    },
+    {
+      "pdgId": "S048",
+      "title": "Xi(c)0",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xic-zero.pdf",
+      "catalogEntryIds": [
+        "S048:1046",
+        "S048:1047"
+      ]
+    },
+    {
+      "pdgId": "S058",
+      "title": "Xi'(c)+",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xic-prime-plus.pdf",
+      "catalogEntryIds": [
+        "S058:1048",
+        "S058:1049"
+      ]
+    },
+    {
+      "pdgId": "S059",
+      "title": "Xi'(c)0",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xic-prime-zero.pdf",
+      "catalogEntryIds": [
+        "S059:1050",
+        "S059:1051"
+      ]
+    },
+    {
+      "pdgId": "B146",
+      "title": "Xi(c)(2645)",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xic-2645.pdf",
+      "catalogEntryIds": [
+        "B146:1052",
+        "B146:1053",
+        "B146:1054",
+        "B146:1055"
+      ]
+    },
+    {
+      "pdgId": "B149",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B149:1056",
+        "B149:1057",
+        "B149:1058",
+        "B149:1059"
+      ]
+    },
+    {
+      "pdgId": "B148",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B148:1060",
+        "B148:1061",
+        "B148:1062",
+        "B148:1063"
+      ]
+    },
+    {
+      "pdgId": "B203",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B203:1064",
+        "B203:1065"
+      ]
+    },
+    {
+      "pdgId": "B192",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B192:1066",
+        "B192:1067"
+      ]
+    },
+    {
+      "pdgId": "B156",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B156:1068",
+        "B156:1069"
+      ]
+    },
+    {
+      "pdgId": "B130",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B130:1070",
+        "B130:1071"
+      ]
+    },
+    {
+      "pdgId": "B157",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B157:1072",
+        "B157:1073"
+      ]
+    },
+    {
+      "pdgId": "B147",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B147:1074",
+        "B147:1075"
+      ]
+    },
+    {
+      "pdgId": "B158",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B158:1076",
+        "B158:1077"
+      ]
+    },
+    {
+      "pdgId": "S047",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "S047:1078",
+        "S047:1079"
+      ]
+    },
+    {
+      "pdgId": "S053",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "S053:1080",
+        "S053:1081"
+      ]
+    },
+    {
+      "pdgId": "B173",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B173:1082",
+        "B173:1083"
+      ]
+    },
+    {
+      "pdgId": "B174",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B174:1084",
+        "B174:1085"
+      ]
+    },
+    {
+      "pdgId": "B175",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B175:1086",
+        "B175:1087"
+      ]
+    },
+    {
+      "pdgId": "B176",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B176:1088",
+        "B176:1089"
+      ]
+    },
+    {
+      "pdgId": "B177",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B177:1090",
+        "B177:1091"
+      ]
+    },
+    {
+      "pdgId": "B209",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B209:1092",
+        "B209:1093"
+      ]
+    },
+    {
+      "pdgId": "B210",
+      "title": "click here",
+      "section": "Charmed Baryons (C = +1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-photon.pdf",
+      "catalogEntryIds": [
+        "B210:1094",
+        "B210:1095"
+      ]
+    },
+    {
+      "pdgId": "S065",
+      "title": "Xi(cc)+",
+      "section": "Doubly-charmed Baryons (C = + 2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-cc-plus.pdf",
+      "catalogEntryIds": [
+        "S065:1096",
+        "S065:1097"
+      ]
+    },
+    {
+      "pdgId": "S068",
+      "title": "Xi(cc)++",
+      "section": "Doubly-charmed Baryons (C = + 2)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xicc-plus-plus.pdf",
+      "catalogEntryIds": [
+        "S068:1098",
+        "S068:1099"
+      ]
+    },
+    {
+      "pdgId": "S040",
+      "title": "Lambda(b)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdab-zero.pdf",
+      "catalogEntryIds": [
+        "S040:1100",
+        "S040:1101"
+      ]
+    },
+    {
+      "pdgId": "B162",
+      "title": "Lambda(b)(5912)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdab-5912-zero.pdf",
+      "catalogEntryIds": [
+        "B162:1102",
+        "B162:1103"
+      ]
+    },
+    {
+      "pdgId": "B163",
+      "title": "Lambda(b)(5920)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-lambdab-5920-zero.pdf",
+      "catalogEntryIds": [
+        "B163:1104",
+        "B163:1105"
+      ]
+    },
+    {
+      "pdgId": "B197",
+      "title": "Lambda(b)(6070)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Lambda-b-6070-zero.pdf",
+      "catalogEntryIds": [
+        "B197:1106",
+        "B197:1107"
+      ]
+    },
+    {
+      "pdgId": "B187",
+      "title": "Lambda(b)(6146)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Lambda-b-6146-zero.pdf",
+      "catalogEntryIds": [
+        "B187:1108",
+        "B187:1109"
+      ]
+    },
+    {
+      "pdgId": "B188",
+      "title": "Lambda(b)(6152)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Lambda-b-6152-zero.pdf",
+      "catalogEntryIds": [
+        "B188:1110",
+        "B188:1111"
+      ]
+    },
+    {
+      "pdgId": "S026",
+      "title": "Sigma(b)",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigmab.pdf",
+      "catalogEntryIds": [
+        "S026:1112",
+        "S026:1113",
+        "S026:1114",
+        "S026:1115",
+        "S026:1116",
+        "S026:1117"
+      ]
+    },
+    {
+      "pdgId": "S062",
+      "title": "Sigma*(b)",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigmab-star.pdf",
+      "catalogEntryIds": [
+        "S062:1118",
+        "S062:1119",
+        "S062:1120",
+        "S062:1121",
+        "S062:1122",
+        "S062:1123"
+      ]
+    },
+    {
+      "pdgId": "B181",
+      "title": "Sigma(b)(6097)+",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-b-6097-plus.pdf",
+      "catalogEntryIds": [
+        "B181:1124",
+        "B181:1125"
+      ]
+    },
+    {
+      "pdgId": "B182",
+      "title": "Sigma(b)(6097)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-sigma-b-6097-minus.pdf",
+      "catalogEntryIds": [
+        "B182:1126",
+        "B182:1127"
+      ]
+    },
+    {
+      "pdgId": "S069",
+      "title": "Xi(b)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-minus.pdf",
+      "catalogEntryIds": [
+        "S069:1128",
+        "S069:1129"
+      ]
+    },
+    {
+      "pdgId": "S070",
+      "title": "Xi(b)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-zero.pdf",
+      "catalogEntryIds": [
+        "S070:1130",
+        "S070:1131"
+      ]
+    },
+    {
+      "pdgId": "B169",
+      "title": "Xi(b)'(5935)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xib-prime-5935-minus.pdf",
+      "catalogEntryIds": [
+        "B169:1132",
+        "B169:1133"
+      ]
+    },
+    {
+      "pdgId": "B161",
+      "title": "Xi(b)(5945)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xib-5945-zero.pdf",
+      "catalogEntryIds": [
+        "B161:1134",
+        "B161:1135"
+      ]
+    },
+    {
+      "pdgId": "B170",
+      "title": "Xi(b)(5955)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-xib-star-5955-minus.pdf",
+      "catalogEntryIds": [
+        "B170:1136",
+        "B170:1137"
+      ]
+    },
+    {
+      "pdgId": "B207",
+      "title": "Xi(b)(6087)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-6087-zero.pdf",
+      "catalogEntryIds": [
+        "B207:1138"
+      ]
+    },
+    {
+      "pdgId": "B208",
+      "title": "Xi(b)(6095)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-6095-zero.pdf",
+      "catalogEntryIds": [
+        "B208:1139"
+      ]
+    },
+    {
+      "pdgId": "B200",
+      "title": "Xi(b)(6100)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-6100-minus.pdf",
+      "catalogEntryIds": [
+        "B200:1140",
+        "B200:1141"
+      ]
+    },
+    {
+      "pdgId": "B180",
+      "title": "Xi(b)(6227)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-6227-minus.pdf",
+      "catalogEntryIds": [
+        "B180:1142",
+        "B180:1143"
+      ]
+    },
+    {
+      "pdgId": "B199",
+      "title": "Xi(b)(6227)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-6227-zero.pdf",
+      "catalogEntryIds": [
+        "B199:1144",
+        "B199:1145"
+      ]
+    },
+    {
+      "pdgId": "B201",
+      "title": "Xi(b)(6327)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-6327-zero.pdf",
+      "catalogEntryIds": [
+        "B201:1146",
+        "B201:1147"
+      ]
+    },
+    {
+      "pdgId": "B202",
+      "title": "Xi(b)(6333)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-b-6333-zero.pdf",
+      "catalogEntryIds": [
+        "B202:1148",
+        "B202:1149"
+      ]
+    },
+    {
+      "pdgId": "B198",
+      "title": "Xi(bc)0",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-Xi-bc-zero.pdf",
+      "catalogEntryIds": [
+        "B198:1150",
+        "B198:1151"
+      ]
+    },
+    {
+      "pdgId": "S063",
+      "title": "Omega(b)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omegab-minus.pdf",
+      "catalogEntryIds": [
+        "S063:1152",
+        "S063:1153"
+      ]
+    },
+    {
+      "pdgId": "B193",
+      "title": "Omega(b)(6316)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omegab-6316-minus.pdf",
+      "catalogEntryIds": [
+        "B193:1154",
+        "B193:1155"
+      ]
+    },
+    {
+      "pdgId": "B194",
+      "title": "Omega(b)(6330)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omegab-6330-minus.pdf",
+      "catalogEntryIds": [
+        "B194:1156",
+        "B194:1157"
+      ]
+    },
+    {
+      "pdgId": "B195",
+      "title": "Omega(b)(6340)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omegab-6340-minus.pdf",
+      "catalogEntryIds": [
+        "B195:1158",
+        "B195:1159"
+      ]
+    },
+    {
+      "pdgId": "B196",
+      "title": "Omega(b)(6350)-",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-omegab-6350-minus.pdf",
+      "catalogEntryIds": [
+        "B196:1160",
+        "B196:1161"
+      ]
+    },
+    {
+      "pdgId": "S061",
+      "title": "b-baryon Admixture (Lambda(b), Xi(b), Sigma(b), Omega(b))",
+      "section": "Bottom Baryons (B = -1)",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-baryon-admixture.pdf",
+      "catalogEntryIds": [
+        "S061:listing"
+      ]
+    },
+    {
+      "pdgId": "B185",
+      "title": "P(ccbar)(4312)+",
+      "section": "Exotic Baryons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-P-c-cbar-4312-plus.pdf",
+      "catalogEntryIds": [
+        "B185:1162"
+      ]
+    },
+    {
+      "pdgId": "B204",
+      "title": "P(ccbars)(4338)0",
+      "section": "Exotic Baryons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-P-c-cbar-s-4338-zero.pdf",
+      "catalogEntryIds": [
+        "B204:1163"
+      ]
+    },
+    {
+      "pdgId": "B171",
+      "title": "P(ccbar)(4380)+",
+      "section": "Exotic Baryons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-P-c-cbar-4380-plus.pdf",
+      "catalogEntryIds": [
+        "B171:1164"
+      ]
+    },
+    {
+      "pdgId": "B186",
+      "title": "P(ccbar)(4440)+",
+      "section": "Exotic Baryons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-P-c-cbar-4440-plus.pdf",
+      "catalogEntryIds": [
+        "B186:1165"
+      ]
+    },
+    {
+      "pdgId": "B172",
+      "title": "P(ccbar)(4457)+",
+      "section": "Exotic Baryons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-P-c-cbar-4457-plus.pdf",
+      "catalogEntryIds": [
+        "B172:1166"
+      ]
+    },
+    {
+      "pdgId": "B205",
+      "title": "P(ccbars)(4459)0",
+      "section": "Exotic Baryons",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-P-c-cbar-s-4459-zero.pdf",
+      "catalogEntryIds": [
+        "B205:1167"
+      ]
+    },
+    {
+      "pdgId": "S028",
+      "title": "Magnetic Monopole Searches",
+      "section": "Searches not in Other Sections",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-magnetic-monopole.pdf",
+      "catalogEntryIds": [
+        "S028:listing"
+      ]
+    },
+    {
+      "pdgId": "S046",
+      "title": "Supersymmetric Particle Searches",
+      "section": "Searches not in Other Sections",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-supersymmetric-part-searches.pdf",
+      "catalogEntryIds": [
+        "S046:listing"
+      ]
+    },
+    {
+      "pdgId": "S057",
+      "title": "Technicolor",
+      "section": "Searches not in Other Sections",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-technicolor.pdf",
+      "catalogEntryIds": [
+        "S057:listing"
+      ]
+    },
+    {
+      "pdgId": "S054",
+      "title": "Searches for Quark and Lepton Compositeness",
+      "section": "Searches not in Other Sections",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-quark-lepton-compositeness.pdf",
+      "catalogEntryIds": [
+        "S054:listing"
+      ]
+    },
+    {
+      "pdgId": "S071",
+      "title": "Extra Dimensions",
+      "section": "Searches not in Other Sections",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-extra-dimensions.pdf",
+      "catalogEntryIds": [
+        "S071:listing"
+      ]
+    },
+    {
+      "pdgId": "S030",
+      "title": "WIMP and Dark Matter Searches",
+      "section": "Searches not in Other Sections",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-wimps-dark-matter-searches.pdf",
+      "catalogEntryIds": [
+        "S030:listing"
+      ]
+    },
+    {
+      "pdgId": "S015",
+      "title": "Other Particle Searches",
+      "section": "Searches not in Other Sections",
+      "listingUrl": "https://pdg.lbl.gov/2026/web/viewer.html?file=../listings/rpp2026-list-other-particle-searches.pdf",
+      "catalogEntryIds": [
+        "S015:listing"
+      ]
+    }
+  ]
+}
