@@ -2,11 +2,22 @@
 
 A Manifest V3 Chrome extension for searching particles and combinations by mass and quantum numbers, using the official Particle Listings as its bundled data source. The full catalog is kept in the database and powers search; it is not displayed as a separate list in the popup. No install/build step or network connection is needed for searches.
 
+## Choose a browser download
+
+| Browser | Download | Install method |
+| --- | --- | --- |
+| Chrome or Chromium (Linux, macOS, Windows) | [Chrome ZIP](https://github.com/jinziWu/pdg-quantum-combiner/releases/latest/download/PDG-Quantum-Combiner-Chrome.zip) | Extract, then load the folder containing `manifest.json` from `chrome://extensions` with Developer mode on. |
+| Safari on macOS | [Safari ZIP](https://github.com/jinziWu/pdg-quantum-combiner/releases/latest/download/PDG-Quantum-Combiner-Safari-macOS.zip) | Extract and follow the included `INSTALL-SAFARI.md`. Safari temporary installs are removed when Safari quits or after 24 hours. |
+
+The browser ZIPs are attached to each GitHub Release. If the links above do not exist yet, open the [Actions page](https://github.com/jinziWu/pdg-quantum-combiner/actions/workflows/publish-browser-downloads.yml) and run **Publish browser downloads** once. A permanent Safari installation requires packaging the extension in a macOS app with Xcode and signing it for distribution; the Safari ZIP is a free temporary install for testing and use sessions.
+
 ## Load or reload
 
 1. Open `chrome://extensions` and enable **Developer mode**.
 2. Choose **Load unpacked** and select the folder where you extracted this project.
 3. If the extension is already installed, click its **Reload** button, close the old popup, and open it again.
+
+For Safari, see [Safari installation instructions](docs/INSTALL-SAFARI.md). Apple documents temporary installation of a Safari web extension folder [here](https://developer.apple.com/documentation/safariservices/running-your-safari-web-extension#Temporarily-install-a-web-extension-folder-in-macOS-Safari).
 
 ## Search and inspect
 
