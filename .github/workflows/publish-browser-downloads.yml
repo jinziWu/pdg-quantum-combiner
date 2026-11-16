@@ -1,0 +1,38 @@
+name: Publish browser downloads
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - manifest.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build browser ZIPs
+        run: python scripts/package_downloads.py
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="$(python -c 'import json; print(json.load(open("manifest.json", encoding="utf-8"))["version"])')"
+          gh release create "v${VERSION}" \
+            dist/PDG-Quantum-Combiner-Chrome.zip \
+            dist/PDG-Quantum-Combiner-Safari-macOS.zip \
+            --title "PDG Quantum Combiner ${VERSION}" \
+            --notes-file docs/INSTALL-SAFARI.md \
+            --target "$GITHUB_SHA"
