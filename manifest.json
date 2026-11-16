@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PDG Quantum Combiner",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Search particle combinations by quantum numbers and total mass, with live Particle Data Group API enrichment.",
   "action": {
     "default_title": "PDG Quantum Combiner",
