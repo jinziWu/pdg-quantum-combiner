@@ -28,6 +28,18 @@ MC_URL = "https://pdg.lbl.gov/2026/reviews/rpp2026-rev-monte-carlo-numbering.pdf
 UNITS = {"eV": 1e-6, "keV": 1e-3, "MeV": 1.0, "GeV": 1e3, "TeV": 1e6}
 FLAVORS = ("strangeness", "charm", "bottom", "top")
 QUANTUM_KEYS = ("charge", "baryon", "lepton", *FLAVORS, "isospin2", "spin2", "parity")
+# At the MeV scale used by the mass plot, stable and weakly decaying states
+# have negligible widths. Treat only these familiar ground states as zero;
+# leave unmeasured excited resonances unknown.
+NEGLIGIBLE_WIDTH_MCID = {
+    11, 12, 13, 14, 15, 16, 22,
+    111, 130, 211, 310, 311, 321,
+    411, 421, 431, 511, 521, 531, 541,
+    1114, 2112, 2212, 3112, 3122, 3212, 3222, 3312, 3322, 3334,
+    4112, 4122, 4132, 4232, 4332,
+    5112, 5122, 5132, 5212, 5222, 5232, 5332,
+    4412, 4422, 4432, 4444,
+}
 
 
 class Element:
@@ -312,10 +324,54 @@ def choose_mass(properties, summaries, measurements, charge, is_particle):
     return None, None, note, records, None
 
 
+def choose_width(properties, summaries, measurements, charge, mcid):
+    """Choose a representative PDG decay/Breit-Wigner width in MeV."""
+    compatible = [p for p in properties if charge_matches(p["flags"], charge)]
+    compatible.sort(key=lambda p: (
+        "BREIT-WIGNER" not in p["description"].upper(),
+        "BREIT WIGNER" not in p["description"].upper(),
+        p["sort"],
+    ))
+    records = []
+    for prop in compatible:
+        for row in sorted(summaries.get(prop["id"], []),
+                          key=lambda d: (not d["in_summary_table"], d["sort"] or 0)):
+            record = mass_record(prop, row, "PDG width summary", {
+                "valueType": row["value_type"], "summaryRowId": row["id"]})
+            records.append(record)
+            if record["valueMeV"] is not None:
+                return record["valueMeV"], record["pdgId"], record["display"], False, "PDG summary"
+
+    for prop in compatible:
+        for row in measurements.get(prop["id"], []):
+            if row["column_name"] not in (None, "VALUE"):
+                continue
+            record = mass_record(prop, row, "PDG width listing measurement", {
+                "measurementId": row["measurement_id"],
+                "reference": row["document_id"], "referenceYear": row["publication_year"],
+                "usedInAverage": bool(row["used_in_average"]),
+                "usedInFit": bool(row["used_in_fit"]),
+            })
+            if record["valueMeV"] is not None and record["limitType"] is None:
+                return record["valueMeV"], record["pdgId"], record["display"], False, "PDG listing measurement"
+
+    # A few PDG widths are published only as ranges. Use the range midpoint
+    # for drawing and preserve the approximation in the provenance label.
+    for record in records:
+        match = re.search(r"([0-9]+(?:\.[0-9]+)?)\s*(?:to|[-–])\s*([0-9]+(?:\.[0-9]+)?)", record["display"], re.I)
+        factor = UNITS.get(record["unit"])
+        if match and factor is not None:
+            midpoint = (float(match.group(1)) + float(match.group(2))) * factor / 2
+            return midpoint, record["pdgId"], record["display"] + " (range midpoint)", True, record["source"]
+    if mcid is not None and abs(mcid) in NEGLIGIBLE_WIDTH_MCID:
+        return 0.0, None, "treated as negligible at MeV scale", False, "stable/long-lived state approximation"
+    return None, None, None, False, None
+
+
 def generate(db_path, listings_path):
     db = sqlite3.connect(db_path)
     db.row_factory = sqlite3.Row
-    query = lambda sql: [dict(row) for row in db.execute(sql)]
+    query = lambda sql, params=(): [dict(row) for row in db.execute(sql, params)]
     info = {r["name"]: r["value"] for r in query("SELECT * FROM pdginfo")}
     assert info["edition"] == EDITION
     listings = read_listings(listings_path)
@@ -324,6 +380,7 @@ def generate(db_path, listings_path):
     id_by_code = {r["pdgid"]: r for r in identifiers}
     source_particles = query("SELECT * FROM pdgparticle ORDER BY id")
     properties = {}
+    width_properties = {}
     for prop in identifiers:
         if prop["data_type"] == "M":
             # Many masses live below SEC headings (rho, f0, top, ...).
@@ -337,9 +394,36 @@ def generate(db_path, listings_path):
                 ancestor = id_by_pk.get(ancestor["parent_id"])
             if ancestor:
                 properties.setdefault(ancestor["id"], []).append(prop)
+        if prop["data_type"] in ("G", "M"):
+            ancestor = id_by_pk.get(prop["parent_id"])
+            seen = set()
+            width_scope = "WIDTH" in prop["description"].upper()
+            while ancestor and ancestor["data_type"] not in ("PART", "SRCH"):
+                assert ancestor["id"] not in seen, "Cyclic PDG identifier hierarchy"
+                seen.add(ancestor["id"])
+                width_scope = width_scope or "WIDTH" in ancestor["description"].upper()
+                ancestor = id_by_pk.get(ancestor["parent_id"])
+            is_width_difference = " - " in prop["description"] or prop["description"].lower().startswith("width(")
+            if width_scope and not is_width_difference and ancestor and ancestor["data_type"] == "PART":
+                width_properties.setdefault(ancestor["id"], []).append(prop)
     summaries = {}
     for row in query(f"SELECT * FROM pdgdata WHERE edition='{EDITION}' ORDER BY sort"):
         summaries.setdefault(row["pdgid_id"], []).append(row)
+    width_property_ids = sorted({p["id"] for group in width_properties.values() for p in group})
+    width_measurements = {}
+    if width_property_ids:
+        placeholders = ",".join("?" for _ in width_property_ids)
+        for row in query(f"""
+            SELECT m.pdgid_id,m.id AS measurement_id,m.charge AS measurement_charge,
+                   v.*,r.document_id,r.publication_year,r.doi
+            FROM pdgmeasurement m
+            JOIN pdgid i ON i.id=m.pdgid_id
+            JOIN pdgmeasurement_values v ON v.pdgmeasurement_id=m.id
+            LEFT JOIN pdgreference r ON r.id=m.pdgreference_id
+            WHERE i.id IN ({placeholders})
+            ORDER BY i.sort,m.sort,v.sort
+        """, width_property_ids):
+            width_measurements.setdefault(row["pdgid_id"], []).append(row)
     measurements = {}
     for row in query("""
         SELECT m.pdgid_id,m.id AS measurement_id,m.charge AS measurement_charge,
@@ -396,6 +480,8 @@ def generate(db_path, listings_path):
         mass_props = properties.get(row["pdgid_id"], [])
         mass, mass_source, mass_note, mass_data, selected_mass = choose_mass(
             mass_props, summaries, measurements, row["charge"], is_particle)
+        width, width_id, width_display, width_is_range, width_source = choose_width(
+            width_properties.get(row["pdgid_id"], []), summaries, width_measurements, row["charge"], row["mcid"])
         p = {
             "id": f'{row["pdgid"]}:{row["id"] if row["id"] is not None else "listing"}',
             "name": row["name"], "symbol": row["name"], "family": family,
@@ -407,6 +493,10 @@ def generate(db_path, listings_path):
             "pdgApiId": row["pdgid"], "mcid": row["mcid"],
             "massPdgIds": [m["pdgid"] for m in mass_props],
             "massSource": mass_source, "massNote": mass_note, "massSelection": selected_mass,
+            "bwWidth": ({
+                "valueMeV": width, "pdgId": width_id, "display": width_display,
+                "source": width_source, "isRange": width_is_range,
+            } if width is not None else None),
             "section": section, "listingUrl": listing.get("listingUrl"),
             "stars": None,
             "quantumSource": additive_source,

@@ -192,7 +192,7 @@ export async function searchCombinations(particles, inputFilters = {}, options =
     undetermined: positiveInteger(options.undeterminedLimit, resultLimit)
   };
   const maxVisited = positiveInteger(options.maxVisited, 500000);
-  const maxDurationMs = positiveInteger(options.maxDurationMs, 8000);
+  const maxDurationMs = positiveInteger(options.maxDurationMs, 30000);
   const yieldEvery = positiveInteger(options.yieldEvery, 256);
   const filtered = particles.filter((particle) => doesParticleMatchPoolFilters(particle, filters));
   const pool = filtered

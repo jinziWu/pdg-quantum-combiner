@@ -76,8 +76,9 @@
             Results per certainty category
             <select id="result-limit">
               <option value="10">10</option>
-              <option value="20" selected>20</option>
+              <option value="20">20</option>
               <option value="40">40</option>
+              <option value="100" selected>100</option>
             </select>
           </label>
 
@@ -198,6 +199,23 @@
           <h2>Results</h2>
           <span id="result-count" class="muted-text">No search yet.</span>
         </div>
+        <div id="plot-toolbar" class="plot-toolbar" hidden>
+          <span><strong>Mass plot:</strong> select shown results to include.</span>
+          <div class="plot-toolbar-actions">
+            <button id="select-all-results" class="ghost-button" type="button">Select all shown</button>
+            <button id="clear-plot-selection" class="ghost-button" type="button">Clear selection</button>
+            <button id="plot-selected-results" class="secondary-button" type="button" disabled>Plot selected (0)</button>
+          </div>
+        </div>
+        <section id="mass-plot-panel" class="mass-plot-panel" hidden aria-label="Selected combination mass plot">
+          <div class="plot-heading">
+            <h3>Selected combinations on the mass axis</h3>
+            <span id="plot-width-note" class="help-text"></span>
+          </div>
+          <div id="mass-plot-scroll" class="mass-plot-scroll" tabindex="0">
+            <svg id="mass-plot" role="img" aria-label="Mass positions and Breit-Wigner width blocks"></svg>
+          </div>
+        </section>
         <div id="results" class="results" aria-live="polite"></div>
       </section>
     </main>
